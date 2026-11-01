@@ -64,7 +64,20 @@
     "assets/audio/cloth-recorded.wav",
     "assets/audio/soda-recorded.wav",
     "assets/audio/charcoal-recorded.wav",
-    "assets/audio/paper-recorded.wav"
+    "assets/audio/paper-recorded.wav",
+    "assets/history/breakfast-1989.jpg",
+    "assets/history/market-1992.jpg",
+    "assets/history/reading-1983.jpg",
+    "assets/history/river-1988-evening.jpg",
+    "assets/history/river-1989-evening.jpg",
+    "assets/history/cooking-1985.jpg",
+    "assets/history/tea-1989.jpg",
+    "assets/history/barbecue-1989.jpg",
+    "assets/history/television-1984.jpg",
+    "assets/history/bookstall.jpg",
+    "assets/history/ferry-old.jpg",
+    "assets/history/ferry-early.jpg",
+    "assets/history/ferry-unknown.jpg"
   ],
   "characters": [
     "chen",
@@ -338,6 +351,58 @@
     },
     {
       "resource": "assets/audio/paper-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/breakfast-1989.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/market-1992.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/reading-1983.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/river-1988-evening.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/river-1989-evening.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/cooking-1985.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/tea-1989.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/barbecue-1989.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/television-1984.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/bookstall.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/ferry-old.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/ferry-early.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/ferry-unknown.jpg",
       "status": 200
     }
   ],

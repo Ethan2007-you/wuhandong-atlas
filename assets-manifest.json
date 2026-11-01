@@ -95,14 +95,49 @@
     "sha256": "a021ba6590a1abb8685950347bb6b5b929e2aab340bc61d6dec346acd93ca1c9"
   },
   {
+    "path": "assets/history/barbecue-1989.jpg",
+    "bytes": 113120,
+    "sha256": "0a1dab6bdc1a906e4c664d6d7e48930eeba4c150c825aabac0b302cc039078db"
+  },
+  {
+    "path": "assets/history/bookstall.jpg",
+    "bytes": 86171,
+    "sha256": "fcc944e78d2518263d1e1511e1545e08eb87c2b7c09c4328ff95512ce880557b"
+  },
+  {
     "path": "assets/history/breakfast-1987.jpg",
     "bytes": 46817,
     "sha256": "a6fbfc1949d9a600449402c910cf1634bbc61b6f14e98e9a73fd782c67ee5711"
   },
   {
+    "path": "assets/history/breakfast-1989.jpg",
+    "bytes": 69644,
+    "sha256": "05e532733352781b1ab2649e2d342ad551f060da6b8bb0aab9fd9e1c432d179f"
+  },
+  {
     "path": "assets/history/cinema-1987.jpg",
     "bytes": 52927,
     "sha256": "ff51296ec21aadaa3ac4dc5644dee885697c1af68a31f55eea2f1e9198ce04f0"
+  },
+  {
+    "path": "assets/history/cooking-1985.jpg",
+    "bytes": 62529,
+    "sha256": "1964fc4b0ff47808c4bf81336392f49d77b37806cb7268cdaeb047e8390390cc"
+  },
+  {
+    "path": "assets/history/ferry-early.jpg",
+    "bytes": 51556,
+    "sha256": "76594fbc352afbb5a8a0d7f0c982a3b345cabbd4b34d873e7c2de2830c62894f"
+  },
+  {
+    "path": "assets/history/ferry-old.jpg",
+    "bytes": 52591,
+    "sha256": "70dbd004cffb78f83fe39cf12f30d73f5424705488e9d77d5e181ae5535f4212"
+  },
+  {
+    "path": "assets/history/ferry-unknown.jpg",
+    "bytes": 91479,
+    "sha256": "6c7f2f57bdcd1ce4abf1e5b2a0146ad774418f7a6555350b06ff2e82486a7ff4"
   },
   {
     "path": "assets/history/grocery-1992.jpg",
@@ -115,6 +150,11 @@
     "sha256": "d9b7ab43954ac44053b4c5f025349ab17c0de62d677e8d949f8c682c963ed495"
   },
   {
+    "path": "assets/history/market-1992.jpg",
+    "bytes": 121071,
+    "sha256": "694f76060a6f84832368dd4de5d03c3d0eb23dd157624d0b13b0a20b4faf4eac"
+  },
+  {
     "path": "assets/history/neighbors-1984.jpg",
     "bytes": 92306,
     "sha256": "d93bcc1efc4f07ae7fa79f0358fdf5c9d89effef0f82917f64d88e85f07a61d5"
@@ -125,14 +165,39 @@
     "sha256": "f278a32b23a6906318cc76eebced25fe25f197f18e8f60a7a2a0767a90173dc9"
   },
   {
+    "path": "assets/history/reading-1983.jpg",
+    "bytes": 83845,
+    "sha256": "777e45e30ddf36211385c8adc2f6a27bb53341a5abbabc87ce57457d3288cd77"
+  },
+  {
+    "path": "assets/history/river-1988-evening.jpg",
+    "bytes": 79500,
+    "sha256": "7cc215c4acb0dcf3e55a51b7698b71c099bc81666749ff6c1a394d9eee981124"
+  },
+  {
     "path": "assets/history/river-1988.jpg",
     "bytes": 86195,
     "sha256": "9b332e5e023f1ffe4befbf07ad49c73d258ce312a050d32b97a5904f3e7af34e"
   },
   {
+    "path": "assets/history/river-1989-evening.jpg",
+    "bytes": 93335,
+    "sha256": "392ce47ed0827f111e57ebe5713ce6da300d436f7029c078b1fb56d513dc4eda"
+  },
+  {
     "path": "assets/history/sources.json",
-    "bytes": 2333,
-    "sha256": "99d189dbfae85b554ce426845450b77fcffa02897860189f60e12b46ff89e09f"
+    "bytes": 6523,
+    "sha256": "3a4943a26d1a7ca1dd7c22c1ed24082038f39cba9b4d3f373610fc91574ce95f"
+  },
+  {
+    "path": "assets/history/tea-1989.jpg",
+    "bytes": 74194,
+    "sha256": "6f1e357f2bb8852a69b6a1cf888ff562ef96dd52220ce4c73d6e33333db4d8f0"
+  },
+  {
+    "path": "assets/history/television-1984.jpg",
+    "bytes": 69057,
+    "sha256": "4cf954440ec5a0e44943e352f8f1530d5dcf7d4df161da885de827ede425f643"
   },
   {
     "path": "assets/scenes/alley.png",
@@ -261,18 +326,18 @@
   },
   {
     "path": "history.css",
-    "bytes": 2799,
-    "sha256": "2ea30b9105bdbe550fceb681d10a4b8715a87dd43c2fff28c24c299c80c6d85d"
+    "bytes": 3603,
+    "sha256": "30d0aa4de271e5175492ff7d9b42599621076ea715d2ca10b7791d7c2e9fccae"
   },
   {
     "path": "history.js",
-    "bytes": 3939,
-    "sha256": "dd6c33ef720048d15817b0a95191c57394c27d27e85b3ce664d9d56cd9323637"
+    "bytes": 7770,
+    "sha256": "66700ff06f4cff6f0d224fb30d5da118ccd7dfadf9cae07b7a3592b5e95d9d93"
   },
   {
     "path": "index.html",
-    "bytes": 10724,
-    "sha256": "115e10b1d4a9d507cb3bc3c590eb725664cdbbfffc61684d7410d456015f2c23"
+    "bytes": 10824,
+    "sha256": "3fef4996de73bc93a69a580f04a2f4aac2b38597af1370124f64a2126db4eeef"
   },
   {
     "path": "journeys.css",
@@ -296,8 +361,8 @@
   },
   {
     "path": "qa/guided-route/assets-checks.json",
-    "bytes": 7543,
-    "sha256": "4c47ce8f7533bf70aec8b5a4207620be5c6d3a32896697b1816b298d30bf3b8d"
+    "bytes": 9182,
+    "sha256": "908c971593670dea174f9ad949bd849432d8d5d115e3c8260cb29cb0d0fbbbf0"
   },
   {
     "path": "qa/guided-route/browser-checks.json",
@@ -335,6 +400,11 @@
     "sha256": "f5b3c5a7472227b6ff692f12f46603c6ef26cc15e9bdc7051b44089ce3415a04"
   },
   {
+    "path": "qa/guided-route/history-expanded-checks.json",
+    "bytes": 1064,
+    "sha256": "5882b00ddbc1b70ee6764279761cfecebe65261a0c95f2dd8a745b72bc7a7d0a"
+  },
+  {
     "path": "qa/guided-route/history-mobile-detail.png",
     "bytes": 32177,
     "sha256": "087d5b5c26830f48a0abc8c962d97282f5fc5ead7bf0125e57d44724c46aab33"
@@ -348,6 +418,21 @@
     "path": "qa/guided-route/history-photo-checks.json",
     "bytes": 579,
     "sha256": "6d24a93f83f9c73214dee5293d71ab5184258251c0f75dfa246218c81fcdf83d"
+  },
+  {
+    "path": "qa/guided-route/history-river-gallery-mobile.png",
+    "bytes": 34159,
+    "sha256": "de6b665db0598154ac8300d5ba155e5b2eef9725be8c4cd898e98839ffd95525"
+  },
+  {
+    "path": "qa/guided-route/history-river-large.png",
+    "bytes": 253494,
+    "sha256": "a29dd586b3cd5871c29a2664c8ead5cee032b28596671fe67e2a49364b88c7af"
+  },
+  {
+    "path": "qa/guided-route/history-river-mobile.png",
+    "bytes": 50799,
+    "sha256": "7c53f4ab37cf00fcaf27e18184a32f66edb10bca00bbb6d6431ea457b291e28f"
   },
   {
     "path": "qa/guided-route/mobile-current-step.png",
@@ -371,13 +456,13 @@
   },
   {
     "path": "qa/guided-route/验证记录.md",
-    "bytes": 2503,
-    "sha256": "acd795e346242246176c35f65f326c32f057d6e9a7391d6aa5e5759767173f7c"
+    "bytes": 3111,
+    "sha256": "cec2a18f857e202df42afb86abbed7080e8670a77e49f88e5a379ece518f3299"
   },
   {
     "path": "README.md",
-    "bytes": 4324,
-    "sha256": "3b020d8cd431ddf45736282fa0e7e455bd4baa4dffa1f6c87303b6e63437334f"
+    "bytes": 4345,
+    "sha256": "6a67e0da38986479d65720e465e9c8fb17b113b96a4078cfd8faa10b55400612"
   },
   {
     "path": "route.css",
@@ -421,8 +506,8 @@
   },
   {
     "path": "tools/check-story-assets.mjs",
-    "bytes": 2561,
-    "sha256": "d2cde4e5062685e9d2b61b90af78da8d88fbcab443519d9aac03c75b4ca4d278"
+    "bytes": 2720,
+    "sha256": "f81840edafc91dc0a42204f5cd5655cfaeeaa742e2112ebdd5f3c63e447c265e"
   },
   {
     "path": "tools/imagegen-barbecue-prompts.json",

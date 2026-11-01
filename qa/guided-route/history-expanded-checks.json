@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS",
+  "morning": [
+    {
+      "id": "breakfast",
+      "count": 2
+    },
+    {
+      "id": "market",
+      "count": 2
+    },
+    {
+      "id": "newsstand",
+      "count": 2
+    },
+    {
+      "id": "exercise",
+      "count": 2
+    },
+    {
+      "id": "pier",
+      "count": 2
+    },
+    {
+      "id": "ferry",
+      "count": 3
+    }
+  ],
+  "night": [
+    {
+      "id": "cinema",
+      "count": 2
+    },
+    {
+      "id": "soup",
+      "count": 2
+    },
+    {
+      "id": "barbecue",
+      "count": 2
+    },
+    {
+      "id": "grocery",
+      "count": 2
+    },
+    {
+      "id": "neighbors",
+      "count": 2
+    },
+    {
+      "id": "fishing",
+      "count": 2
+    }
+  ],
+  "checks": [
+    "Twelve scenes have at least two photographs; ferry has three",
+    "Second image switches with matching description and source",
+    "River scenes use larger photo frames",
+    "Mobile 390x844 image and gallery readable",
+    "Photographs of people swimming or cooking are not described as fishing or soup"
+  ],
+  "console": []
+}
