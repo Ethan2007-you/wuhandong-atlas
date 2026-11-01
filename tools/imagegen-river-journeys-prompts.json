@@ -1,0 +1,109 @@
+{
+  "created": "2026-10-25",
+  "generator": "OpenAI imagegen built-in tool",
+  "style": "Purpose: original fine hand-painted Wuhan everyday-life interactive illustrated website asset. STYLE REFERENCE image is solely style and character rendering reference, NOT a layout to copy. Same detailed painterly gouache / old paper illustration, believable ordinary Chinese people, old enamel, timber, gray brick, restrained navy #0f1a2e, cream #f2ece1, amber #ffb35c, wood #8b5a2b, muted red #e63946. NO logos, NO readable invented signage, NO UI, no panels or borders. Rich unified illustration, never a photo collage. ",
+  "notes": "Original illustrations generated for this project, with existing project art as style reference. No external commercial film frames or brand logos. Transparency preserved. These are imagined Wuhan daily-life scenes, not documentary images.",
+  "assets": [
+    {
+      "file": "assets/scenes/route-morning.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-3aa7ed00-5a2b-40fc-bf18-9e53f61c2f83.png",
+      "prompt": {
+        "id": "route-morning",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/overview-day.png"
+        ],
+        "prompt": "Purpose: original fine hand-painted Wuhan everyday-life interactive illustrated website asset. STYLE REFERENCE image is solely style and character rendering reference, NOT a layout to copy. Same detailed painterly gouache / old paper illustration, believable ordinary Chinese people, old enamel, timber, gray brick, restrained navy #0f1a2e, cream #f2ece1, amber #ffb35c, wood #8b5a2b, muted red #e63946. NO logos, NO readable invented signage, NO UI, no panels or borders. Rich unified illustration, never a photo collage. Create ONE WIDE continuous 3:1 LANDSCAPE MULTI-LOCATION morning route illustration, NOT one repeated street facade. Composition: LEFT 0-18% intimate breakfast alley with steam, a noodle kitchen, bicycle and customers; 18-34% open bustling produce market under canvas awnings with baskets and fishmonger's enamel basin; 34-46% small street-corner newspaper stand. Alley turns diagonally DOWN toward broad riverside stone steps at 46-64%, tai chi elders and someone airing quilts in crisp early morning. At 64-78% a clearly visible Wuhan-style civilian ferry terminal and gangway with commuters, dock worker, bicycle, cream-and-muted-red old public ferry. The ENTIRE RIGHT THIRD must be immense Yangtze River water and visible ferry moving out with hazy opposite bank, foreground ferry deck and passengers near right edge. Spatially connected winding lane to riverside, rising roofs back-left and open river right. Warm pale 7am daylight; river is a major actor at least 35% of painting, not tiny decorative sliver. No grocery shop and NO barbecue/night stalls. Many daily-life details and varied human activities, no tourist landmark montage. Aspect ratio 3:1, high detail."
+      }
+    },
+    {
+      "file": "assets/scenes/route-night.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-46841886-781b-4d19-bd04-604f369fabc1.png",
+      "prompt": {
+        "id": "route-night",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/overview-night.png"
+        ],
+        "prompt": "Purpose: original fine hand-painted Wuhan everyday-life interactive illustrated website asset. STYLE REFERENCE image is solely style and character rendering reference, NOT a layout to copy. Same detailed painterly gouache / old paper illustration, believable ordinary Chinese people, old enamel, timber, gray brick, restrained navy #0f1a2e, cream #f2ece1, amber #ffb35c, wood #8b5a2b, muted red #e63946. NO logos, NO readable invented signage, NO UI, no panels or borders. Rich unified illustration, never a photo collage. Create ONE WIDE continuous 3:1 LANDSCAPE night neighborhood-and-river illustration, with a COMPLETELY DIFFERENT spatial composition from a daytime street. On LEFT 0-17% open courtyard between old residential buildings with blank white outdoor cinema cloth, vintage projector behind seats, neighbors on small chairs, soft light on faces. 17-32% little clay-pot soup cart (woman navy blouse, cream apron). 32-47% charcoal barbecue with male cook and worn awning. 47-62% cozy old grocery with glass bottles, enamel cups. 62-77% opening under a banyan tree with communal tea table, aunties/family, folding stools and a vintage radio. Entire RIGHT THIRD opens into broad stone levee, a naturally posed elderly angler, reeds, moored skiff, several lamps reflected in very wide deep-blue Yangtze water. River occupies at least 30% of illustration, amber reflections, cool moonlit ripples, substantial river atmosphere. The ground follows an irregular CURVING path from courtyard to food stalls to tree to waterfront, NOT six flat storefronts in straight row. No breakfast, no vegetable market, no newspaper stall, no lit tourist signs. Many beautiful specific small human moments. Aspect ratio 3:1."
+      }
+    },
+    {
+      "file": "assets/scenes/river-exercise.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-b4d58e4f-972e-4006-97f7-11f101599108.png",
+      "prompt": {
+        "id": "river-exercise",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/riverside-day.png"
+        ],
+        "prompt": "Purpose: original fine hand-painted Wuhan everyday-life interactive illustrated website asset. STYLE REFERENCE image is solely style and character rendering reference, NOT a layout to copy. Same detailed painterly gouache / old paper illustration, believable ordinary Chinese people, old enamel, timber, gray brick, restrained navy #0f1a2e, cream #f2ece1, amber #ffb35c, wood #8b5a2b, muted red #e63946. NO logos, NO readable invented signage, NO UI, no panels or borders. Rich unified illustration, never a photo collage. Make a new 16:9 local scene at the early morning Wuhan riverbank, NOT outside the old shop. Wide stepped stone levee directly beside the broad Yangtze, open sky and river fill 55% of view. Foreground at x .36 y .71 an elderly woman in dusty rose cotton and dark trousers practicing tai chi holding a pale bamboo fan down at her side, natural movement; another two elderly people stretching naturally on the upper steps. Left edge banyan tree, bicycle with market basket, tea thermos, a pale quilt hangs on a real line at upper-left, empty space on right for UI interaction. Near center-left low stone bench with two cups and an open fan. Opposite shore diffuse and quiet, one tiny ferry midriver. Hazy early morning light upper-left, pale cream/navy muted river, delicate painted water, crisp textures. Not nightlife and no grocery/barbecue facade. High-detail coherent with reference."
+      }
+    },
+    {
+      "file": "assets/scenes/ferry-pier.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-4a858365-6f31-4122-934b-493528d73dad.png",
+      "prompt": {
+        "id": "ferry-pier",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/riverside-day.png"
+        ],
+        "prompt": "undefinedNew 16:9 civilian Wuhan Yangtze ferry terminal close-up at 7:40am, late-1990s daily life. This must be a dock, NOT a street: left third a worn blue-gray wooden ticket window, little metal ticket punch fixed to counter at x .29 y .66, cream paper tickets on counter, elderly ticket attendant partly visible. Center a long gangway with handrail descending toward a cream and faded red civilian ferry at x .72 y .59. Ordinary commuters in muted cotton clothes and one bicycle pushing onboard, natural poses. Broad river occupies right half, hazy opposite bank and soft wake, thick coiled rope, cleat, rusted bollard, lifebuoy and a tea flask. Dawn sunlight upper left, old paint, paper, river humidity, cinematic depth. Few people, clear physical path for embarking. No tourist cruise or modern luxury marina. No printed text, interface or logos."
+      }
+    },
+    {
+      "file": "assets/scenes/ferry-river.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-f80bf033-5319-40bc-a586-7b6a510f7595.png",
+      "prompt": {
+        "id": "ferry-river",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/riverside-day.png"
+        ],
+        "prompt": "undefinedA very wide 3:1 hand-painted panoramic BACKGROUND PLATE for a first-person Wuhan everyday passenger ferry crossing the broad Yangtze at 8am. ONLY RIVER LANDSCAPE, no foreground deck, no railing, no close people. Broad glimmering pale-blue river fills lower 55%, distant opposite riverbank across horizon at y .42, modest old warehouses, laundry on distant houses, tree line, a long steel bridge far left, one small workboat and distant commuter ferry to right. Dawn sunlight, subtle low haze, sophisticated warm/cool textured brushwork, many small ripples and long soft wakes. Strong lateral parallax potential and large continuous water surface. Place main bridge on left 25% and arrival pier buildings on right 25%; no isolated cards/panels, no promotional landmarks. Wide 3:1."
+      }
+    },
+    {
+      "file": "assets/scenes/ferry-rail.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-f88bc8f0-8933-4b8f-aee2-f93b43d02a01.png",
+      "prompt": {
+        "id": "ferry-rail",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/riverside-day.png"
+        ],
+        "transparent": true,
+        "prompt": "undefinedCreate a TRANSPARENT ALPHA first-person foreground overlay, canvas landscape 16:9. Only bottom 25% of image contains a slightly weathered cream-painted civilian ferry railing with warm brown wooden handrail and worn pale-blue deck edge, realistic perspective mostly horizontal, a coil of thick rope at bottom-left and partial cream lifebuoy at bottom-right. The WHOLE upper 75% and spaces BETWEEN railing bars must be truly transparent, no river or scenery or sky. Fine hand-painted gouache with old paint grain, 1990s Wuhan public ferry, no text/brands, no hands or person. Must composite over a separate river panorama seamlessly. Keep ample open transparent center view."
+      }
+    },
+    {
+      "file": "assets/scenes/courtyard-cinema.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-18ae7d9e-fcc8-42cc-8a84-9ce7ad713403.png",
+      "prompt": {
+        "id": "courtyard-cinema",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/neighbors.png"
+        ],
+        "prompt": "undefinedNew 16:9 Wuhan old-neighborhood OUTDOOR CINEMA courtyard at night, not a food stall. Natural amphitheater of gray-brick courtyard, laundry overhead, climbing vines, tiled roofs. A large clean blank warm-white cloth movie screen at center-left EXACT rectangle approximately x .24-.69 y .24-.63 of frame, tied to bamboo poles. Vintage black 16mm projector visible at lower-right x .79 y .70 with two metal reels and one crank, simple warm lightbulb nearby. Five naturally posed Chinese neighbors and children seated in low stools mostly foreground left and bottom, backs/side profiles watching blank screen. A grandmother with fan, barefoot boy by enamel teacup, thermos and sunflower seed bowl. Warm amber projector beam through dust, midnight navy shadow, quiet intimacy. Screen stays plain white/cream without any copyrighted movie. No brand/logos or lettering. Precise hand-painted cohesive texture. Keep enough empty dark area lower center for physical controls."
+      }
+    },
+    {
+      "file": "assets/scenes/night-fishing.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-24304fac-a898-4f56-9c7b-3165da2b4f1b.png",
+      "prompt": {
+        "id": "night-fishing",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/neighbors.png"
+        ],
+        "prompt": "undefinedNew 16:9 local scene of nighttime Wuhan Yangtze riverside angling, large beautiful actual WATER VIEW. Broad navy water occupies whole middle and right 70% of image; gentle amber reflections from ordinary distant apartment windows, opposite bank no tourist neon. Foreground left an older Chinese man naturally seated low on stone river steps, navy cotton jacket, faded cap, small enamel tea mug, bamboo bait box, bucket. His long thin fishing rod angles up from x .31 y .75 to .60 .33, line falls toward tiny pale fishing float at x .66 y .67. Massive stone steps, wet moss, rope, willow branches upper-left, bicycle in deep left background. Night breeze, moon haze, reeds at bottom-right, very clear intimate fishing spot. No fish trophy, no game interface, no crowded stalls. Leave visual focus on rippling water and luminous float. Hand-painted detailed cinematic scene."
+      }
+    },
+    {
+      "file": "assets/sprites/market-cutouts.png",
+      "original": "C:\\Users\\Youzg\\.codex\\generated_images\\01a16c9f-4024-74a2-8ac2-c5ed20843675\\exec-38b74774-a0d2-4491-a485-35e853ce57a6.png",
+      "prompt": {
+        "id": "market-cutouts",
+        "refs": [
+          "C:/Users/Youzg/OneDrive/文档/ChatGPT/项目/wuhandong-atlas/assets/scenes/market-day.png"
+        ],
+        "transparent": true,
+        "prompt": "undefinedCreate a TRANSPARENT-ALPHA 3 COLUMN x 2 ROW sprite sheet, all six equal cells separated by spacious true transparency, front/three-quarter view, individual isolated hand-painted objects centered inside each cell, no touch between objects, no shadows outside silhouettes. Top-left fresh bundle leafy greens tied with straw; top-middle two segments speckled lotus root one cut to show holes; top-right a little bunch of pale white radishes with leaves. Bottom-left beautiful EMPTY round woven wicker market basket seen from above at 30 degrees, open top, handle up; bottom-middle a full cream cotton grocery bag with green leaves showing; bottom-right one pale opened bamboo folding fan, detailed ribs. Each object fills max70% of its cell, ample padding. The background everywhere else MUST BE TRANSPARENT. Same delicate painterly illustrated object style, neutral diffuse morning light, no people, no text, no labels, no grid drawn. 3:2 image aspect ratio."
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-26",
+  "generator": "OpenAI imagegen built-in tool",
+  "reference": "assets/scenes/night-fishing.png",
+  "file": "assets/scenes/night-fishing-clean.png",
+  "originalOutput": "C:/Users/Youzg/.codex/generated_images/01a16c9f-4024-74a2-8ac2-c5ed20843675/exec-ead7ad83-d936-4f4f-bba8-137c0c5a27c7.png",
+  "prompt": "Surgical edit: preserve exact 16:9 composition, person, rod, foliage, buildings, moon, reflections, brushwork and palette. Remove only the fixed tiny fishing bobber and thin line from the water, reconstruct water underneath. The webpage animates the line and bobber. No new objects or layout changes."
+}

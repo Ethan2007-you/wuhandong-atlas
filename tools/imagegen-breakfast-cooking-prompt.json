@@ -1,0 +1,5 @@
+{
+  "id": "cooking-breakfast",
+  "mode": "built-in imagegen edit",
+  "prompt": "Use case: identity-preserve / precise-object-edit. Image1 EDIT TARGET: three equal square panels of hot dry noodle preparation, 3:1 overall storyboard. Image2 is OWNER CLOTHING and morning-light reference: woman in burgundy shirt and cream patterned apron at Wuhan breakfast shop. In all three cooking panels change only the visible cook's torso/sleeves/hands to match this breakfast shop woman: burgundy red-brown long sleeves rolled slightly, worn ivory cream apron with faint small floral print, natural adult female hands. Keep exact basket, steel boiling pot, noodles, sesame sauce, enamel bowls and toppings and every panel composition fixed. Faces remain out of frame. Preserve morning daylight from upper-left and fine hand-painted ink/gouache style. Three actions still left: lift blanched noodles; middle: pour sesame sauce; right: offer finished bowl. No extra panels, no text or borders, no new props. This merges preparation into the woman-owned breakfast scene; no male dark apron or dark male sleeves."
+}

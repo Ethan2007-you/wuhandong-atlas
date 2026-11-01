@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-26",
+  "files": [
+    "index.html",
+    "app.js",
+    "periods.js",
+    "journeys.js",
+    "styles.css",
+    "journeys.css",
+    "story.css",
+    "story-state.js",
+    "content.js",
+    "story-ui.js",
+    "music.js",
+    "scenes.js"
+  ],
+  "references": [
+    "assets/fonts/WuHanYingXiongTi.woff2",
+    "assets/vendor/gsap.min.js",
+    "assets/scenes/route-morning.png",
+    "assets/scenes/barbecue-night.png",
+    "assets/audio/laojie-instrumental.mp3",
+    "assets/scenes/breakfast-morning-open.png",
+    "assets/video/steam.apng",
+    "assets/postcard-art.js",
+    "assets/sprites/objects.png",
+    "assets/sprites/states.png",
+    "assets/sprites/cooking-breakfast.png",
+    "assets/scenes/breakfast-pot-closed.png",
+    "assets/scenes/market-day.png",
+    "assets/scenes/newsstand-day.png",
+    "assets/scenes/river-exercise.png",
+    "assets/scenes/ferry-pier.png",
+    "assets/scenes/ferry-river.png",
+    "assets/scenes/route-night.png",
+    "assets/scenes/courtyard-cinema.png",
+    "assets/scenes/soup-night.png",
+    "assets/scenes/grocery.png",
+    "assets/scenes/neighbors.png",
+    "assets/scenes/night-fishing-clean.png",
+    "assets/scenes/ferry-rail.png",
+    "assets/sprites/market-cutouts.png",
+    "assets/scenes/alley.png",
+    "assets/scenes/night.png",
+    "assets/audio/door-open-recorded.wav",
+    "assets/audio/door-close-recorded.wav",
+    "assets/audio/bowl-recorded.wav",
+    "assets/audio/page-recorded.wav",
+    "assets/audio/breeze-recorded.wav",
+    "assets/audio/cassette-recorded.wav",
+    "assets/audio/switch-recorded.wav",
+    "assets/audio/bell-recorded.wav",
+    "assets/audio/boiling-recorded.wav",
+    "assets/audio/cloth-recorded.wav",
+    "assets/audio/soda-recorded.wav",
+    "assets/audio/charcoal-recorded.wav",
+    "assets/audio/paper-recorded.wav"
+  ],
+  "characters": [
+    "chen",
+    "li",
+    "wu"
+  ],
+  "traceCount": 10,
+  "programmes": [
+    {
+      "name": "街坊生活报",
+      "cues": 6,
+      "seconds": 30
+    },
+    {
+      "name": "招领小留言",
+      "cues": 6,
+      "seconds": 30
+    },
+    {
+      "name": "李伯的机修手记",
+      "cues": 6,
+      "seconds": 30
+    }
+  ],
+  "filmFrames": 4,
+  "scenes": 12,
+  "http": [
+    {
+      "resource": "index.html",
+      "status": 200
+    },
+    {
+      "resource": "app.js",
+      "status": 200
+    },
+    {
+      "resource": "periods.js",
+      "status": 200
+    },
+    {
+      "resource": "journeys.js",
+      "status": 200
+    },
+    {
+      "resource": "styles.css",
+      "status": 200
+    },
+    {
+      "resource": "journeys.css",
+      "status": 200
+    },
+    {
+      "resource": "story.css",
+      "status": 200
+    },
+    {
+      "resource": "story-state.js",
+      "status": 200
+    },
+    {
+      "resource": "content.js",
+      "status": 200
+    },
+    {
+      "resource": "story-ui.js",
+      "status": 200
+    },
+    {
+      "resource": "music.js",
+      "status": 200
+    },
+    {
+      "resource": "scenes.js",
+      "status": 200
+    },
+    {
+      "resource": "assets/fonts/WuHanYingXiongTi.woff2",
+      "status": 200
+    },
+    {
+      "resource": "assets/vendor/gsap.min.js",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/route-morning.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/barbecue-night.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/laojie-instrumental.mp3",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/breakfast-morning-open.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/video/steam.apng",
+      "status": 200
+    },
+    {
+      "resource": "assets/postcard-art.js",
+      "status": 200
+    },
+    {
+      "resource": "assets/sprites/objects.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/sprites/states.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/sprites/cooking-breakfast.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/breakfast-pot-closed.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/market-day.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/newsstand-day.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/river-exercise.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/ferry-pier.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/ferry-river.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/route-night.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/courtyard-cinema.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/soup-night.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/grocery.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/neighbors.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/night-fishing-clean.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/ferry-rail.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/sprites/market-cutouts.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/alley.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/scenes/night.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/door-open-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/door-close-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/bowl-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/page-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/breeze-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/cassette-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/switch-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/bell-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/boiling-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/cloth-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/soda-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/charcoal-recorded.wav",
+      "status": 200
+    },
+    {
+      "resource": "assets/audio/paper-recorded.wav",
+      "status": 200
+    }
+  ],
+  "status": "PASS"
+}

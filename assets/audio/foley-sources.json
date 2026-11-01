@@ -1,0 +1,283 @@
+[
+  {
+    "id": "595",
+    "title": "Bike bell ring",
+    "category": "bike",
+    "page": "https://mixkit.co/free-sound-effects/download/595/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/595/595.wav"
+    ],
+    "file": "assets/audio/bell-recorded.wav",
+    "bytes": 388124,
+    "source": "https://mixkit.co/free-sound-effects/bike/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 2.2,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 502144
+  },
+  {
+    "id": "195",
+    "title": "Creaky door open",
+    "category": "wood",
+    "page": "https://mixkit.co/free-sound-effects/download/195/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/195/195.wav"
+    ],
+    "file": "assets/audio/door-open-recorded.wav",
+    "bytes": 472620,
+    "source": "https://mixkit.co/free-sound-effects/wood/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 2.679002267573696,
+      "edgeFades": true,
+      "peakGain": 0.8824920368843003
+    },
+    "originalBytes": 708944
+  },
+  {
+    "id": "189",
+    "title": "Creaky closing wood door",
+    "category": "wood",
+    "page": "https://mixkit.co/free-sound-effects/download/189/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/189/189.wav"
+    ],
+    "file": "assets/audio/door-close-recorded.wav",
+    "bytes": 423928,
+    "source": "https://mixkit.co/free-sound-effects/wood/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 2.40297052154195,
+      "edgeFades": true,
+      "peakGain": 0.8666101673285467
+    },
+    "originalBytes": 635906
+  },
+  {
+    "id": "2836",
+    "title": "Glasses clinking",
+    "category": "drink",
+    "page": "https://mixkit.co/free-sound-effects/download/2836/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/2836/2836.wav"
+    ],
+    "file": "assets/audio/glass-recorded.wav",
+    "bytes": 211724,
+    "source": "https://mixkit.co/free-sound-effects/drink/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 1.2,
+      "edgeFades": true,
+      "peakGain": 0.9542224810716365
+    },
+    "originalBytes": 212484
+  },
+  {
+    "id": "3181",
+    "title": "Pouring foamy soda",
+    "category": "drink",
+    "page": "https://mixkit.co/free-sound-effects/download/3181/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/3181/3181.wav"
+    ],
+    "file": "assets/audio/soda-recorded.wav",
+    "bytes": 493960,
+    "source": "https://mixkit.co/free-sound-effects/drink/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0.7,
+      "durationSeconds": 2.7999773242630384,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 2294934
+  },
+  {
+    "id": "1799",
+    "title": "Bowl placed on table",
+    "category": "cooking",
+    "page": "https://mixkit.co/free-sound-effects/download/1799/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/1799/1799.wav"
+    ],
+    "file": "assets/audio/bowl-recorded.wav",
+    "bytes": 194084,
+    "source": "https://mixkit.co/free-sound-effects/cooking/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 1.1,
+      "edgeFades": true,
+      "peakGain": 0.8830944831959416
+    },
+    "originalBytes": 194552
+  },
+  {
+    "id": "1817",
+    "title": "Kettle boiling",
+    "category": "cooking",
+    "page": "https://mixkit.co/free-sound-effects/download/1817/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/1817/1817.wav"
+    ],
+    "file": "assets/audio/boiling-recorded.wav",
+    "bytes": 705644,
+    "source": "https://mixkit.co/free-sound-effects/cooking/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 20,
+      "durationSeconds": 4,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 11174440
+  },
+  {
+    "id": "1808",
+    "title": "Electric switch",
+    "category": "cooking",
+    "page": "https://mixkit.co/free-sound-effects/download/1808/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/1808/1808.wav"
+    ],
+    "file": "assets/audio/switch-recorded.wav",
+    "bytes": 88244,
+    "source": "https://mixkit.co/free-sound-effects/cooking/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 0.5,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 365228
+  },
+  {
+    "id": "1104",
+    "title": "Page turn single",
+    "category": "paper",
+    "page": "https://mixkit.co/free-sound-effects/download/1104/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/1104/1104.wav"
+    ],
+    "file": "assets/audio/page-recorded.wav",
+    "bytes": 79700,
+    "source": "https://mixkit.co/free-sound-effects/paper/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 0.45156462585034013,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 80386
+  },
+  {
+    "id": "2380",
+    "title": "Paper quick movement",
+    "category": "paper",
+    "page": "https://mixkit.co/free-sound-effects/download/2380/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/2380/2380.wav"
+    ],
+    "file": "assets/audio/paper-recorded.wav",
+    "bytes": 132344,
+    "source": "https://mixkit.co/free-sound-effects/paper/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 0.75,
+      "edgeFades": true,
+      "peakGain": 1.0502960141785136
+    },
+    "originalBytes": 159812
+  },
+  {
+    "id": "2427",
+    "title": "Breeze through the trees",
+    "category": "wind",
+    "page": "https://mixkit.co/free-sound-effects/download/2427/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/2427/2427.wav"
+    ],
+    "file": "assets/audio/breeze-recorded.wav",
+    "bytes": 846764,
+    "source": "https://mixkit.co/free-sound-effects/wind/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "edit": {
+      "startSeconds": 1,
+      "durationSeconds": 4.8,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 2528176
+  },
+  {
+    "id": "1898",
+    "title": "Cloth slide out",
+    "category": "cloth",
+    "file": "assets/audio/cloth-recorded.wav",
+    "page": "https://mixkit.co/free-sound-effects/download/1898/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/1898/1898.wav"
+    ],
+    "source": "https://mixkit.co/free-sound-effects/cloth/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "bytes": 141164,
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 0.8,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 309430
+  },
+  {
+    "id": "2556",
+    "title": "Cassette player",
+    "category": "radio",
+    "file": "assets/audio/cassette-recorded.wav",
+    "page": "https://mixkit.co/free-sound-effects/download/2556/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/2556/2556.wav"
+    ],
+    "source": "https://mixkit.co/free-sound-effects/radio/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "bytes": 344552,
+    "edit": {
+      "startSeconds": 0,
+      "durationSeconds": 1.9529931972789116,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 516842
+  },
+  {
+    "id": "1330",
+    "title": "Campfire crackles",
+    "category": "fire",
+    "file": "assets/audio/charcoal-recorded.wav",
+    "page": "https://mixkit.co/free-sound-effects/download/1330/",
+    "urls": [
+      "https://assets.mixkit.co/active_storage/sfx/1330/1330.wav"
+    ],
+    "source": "https://mixkit.co/free-sound-effects/fire/",
+    "license": "https://mixkit.co/license/#sfxFree",
+    "bytes": 599804,
+    "note": "Generic fire foley, not a Wuhan barbecue field recording",
+    "edit": {
+      "startSeconds": 3,
+      "durationSeconds": 3.4,
+      "edgeFades": true,
+      "peakGain": 1.2
+    },
+    "originalBytes": 6359210
+  }
+]

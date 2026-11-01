@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "preview": "http://127.0.0.1:4325/index.html",
+  "status": "PASS",
+  "console": {
+    "desktop": [],
+    "mobile": [],
+    "finalReload": []
+  },
+  "finalView": {
+    "bottomMetaVisible": false,
+    "brokenImages": [],
+    "pageScroll": {
+      "x": false,
+      "y": false
+    },
+    "period": "morning",
+    "state": "Overview",
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "notePreserved": true,
+  "checkedViewportSizes": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "height": 720,
+      "width": 1280
+    }
+  ],
+  "actualUiChecks": [
+    "Lotus and greens: reserve, deliver tomorrow ingredients, take back empty basket",
+    "No lotus: radish and greens, soup vendor supplies her own lotus",
+    "Decline then evening: no delivery falsely recorded",
+    "Skip morning: evening remains fully explorable",
+    "Repeated visits and refresh: single delivery and single basket return",
+    "Reset via confirmation: morning overview, original postcard note retained",
+    "Wu remembers less-chili; found cup mark changes her response",
+    "Unfold newspaper; read and put back; ferry ending carries only validated ticket",
+    "Radio 104.2 programme completed; 96.8 switch, 100 off-frequency and leaving cancel subtitles",
+    "Music base volume 0.14 to 0.0392 while programme; changing base to 0.22 restores to 0.22",
+    "Original film four frames; newspaper-read opening and actual errand branch",
+    "Postcard Canvas 1600 by 1320 reflects only actual records",
+    "Mobile paper notes, comparison sheet, newspaper, radio and optional basket choice readable and operable",
+    "Rapid scene switching does not show stale dialogue"
+  ],
+  "limitations": [
+    "Radio contains original timed subtitles, no narrated audio",
+    "Past/current images are clearly labelled original fictional reconstructions, not historical photos",
+    "Mobile tested through browser viewport, not physical hardware",
+    "Local HTTP tested; double-click file URL not independently tested"
+  ],
+  "imageCheck": "Only assigned image sources are checked; the scene image before entry and ungenerated postcard have intentionally empty sources."
+}

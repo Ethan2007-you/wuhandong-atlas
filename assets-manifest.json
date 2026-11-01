@@ -1,0 +1,467 @@
+[
+  {
+    "path": "app.js",
+    "bytes": 46502,
+    "sha256": "2ff75352aab94e01dcd78d64d637b511cebc3c3f5368f187a08bde5ac322b803"
+  },
+  {
+    "path": "assets/audio/bell-recorded.wav",
+    "bytes": 388124,
+    "sha256": "6e3739ce8bb82396ec04ca34efbff84d1106d42447e6bd9fbbfe2cb9b9b7c611"
+  },
+  {
+    "path": "assets/audio/bgm-source.json",
+    "bytes": 506,
+    "sha256": "51c9e9cd0dddfa71631185c7a1fa11491acec604ca722847adb0adf976b2efd8"
+  },
+  {
+    "path": "assets/audio/boiling-recorded.wav",
+    "bytes": 705644,
+    "sha256": "35e226f77081d2db17972ac01e794c49d382d3e12c723411b336d9e5d88ffb74"
+  },
+  {
+    "path": "assets/audio/bowl-recorded.wav",
+    "bytes": 194084,
+    "sha256": "6cff5ddd9b26a43cae0c8fc0b051fb4ff022bd0349bdeb7fd5df7b5e5c1f4bda"
+  },
+  {
+    "path": "assets/audio/breeze-recorded.wav",
+    "bytes": 846764,
+    "sha256": "936e016237a2c394a2c0ea5a2992a4f3e7b34b7e95f4413f62b1558ff852ade9"
+  },
+  {
+    "path": "assets/audio/cassette-recorded.wav",
+    "bytes": 344552,
+    "sha256": "c4172d02918f529000a9863ac7706dbd8e85be7f3412fa8233e0b7d782048a35"
+  },
+  {
+    "path": "assets/audio/charcoal-recorded.wav",
+    "bytes": 599804,
+    "sha256": "f4f4337d13517168a74a470bc881abd90984d10b2bf2ea4b4b2f82061d374f86"
+  },
+  {
+    "path": "assets/audio/cloth-recorded.wav",
+    "bytes": 141164,
+    "sha256": "51b25750f60b03f944b3bb86ba48b236037b776c5adeb3b8925e6505ee0ecbd4"
+  },
+  {
+    "path": "assets/audio/door-close-recorded.wav",
+    "bytes": 423928,
+    "sha256": "72f97aa3125c7265fc50055e81fb0d5bfe902d94bd7764d7ca27ed3a11d6d99b"
+  },
+  {
+    "path": "assets/audio/door-open-recorded.wav",
+    "bytes": 472620,
+    "sha256": "71035f40a2a6bb5a166ab839fcf4988f5e627a63a9ce9d8a2cc9b7b470523ab9"
+  },
+  {
+    "path": "assets/audio/foley-sources.json",
+    "bytes": 8259,
+    "sha256": "ec8a93e98622e906e637d47148de1c5763d244ea4d6457b6240c3552d317c8b3"
+  },
+  {
+    "path": "assets/audio/laojie-instrumental.mp3",
+    "bytes": 5102635,
+    "sha256": "daf69cad6b0ed21eee6e46260bc77bda14754acea1d9baa9ef08e0c760d0239a"
+  },
+  {
+    "path": "assets/audio/page-recorded.wav",
+    "bytes": 79700,
+    "sha256": "3084e74c6ab984f829e82b8b4638591a99dd5cf686b901befc395cf928e73f96"
+  },
+  {
+    "path": "assets/audio/paper-recorded.wav",
+    "bytes": 132344,
+    "sha256": "a502a67f7a8c2fa04c0a4568f81c103241786334dae9c07325368656615becbb"
+  },
+  {
+    "path": "assets/audio/soda-recorded.wav",
+    "bytes": 493960,
+    "sha256": "cb748d693ecbc4d0f9659bab97ffc192bbe3314890db353fa8b6cd4968413077"
+  },
+  {
+    "path": "assets/audio/switch-recorded.wav",
+    "bytes": 88244,
+    "sha256": "123ba428f795361468385f9b0a86cf4c2e5346937499ecb143858dbe965719a0"
+  },
+  {
+    "path": "assets/fonts/WuHanYingXiongTi.woff2",
+    "bytes": 793404,
+    "sha256": "a021ba6590a1abb8685950347bb6b5b929e2aab340bc61d6dec346acd93ca1c9"
+  },
+  {
+    "path": "assets/postcard-art.js",
+    "bytes": 9367182,
+    "sha256": "582d96813401893040095f5a41bcd1bb9d5758e3c04cc8d773e9f9c25b91ffc8"
+  },
+  {
+    "path": "assets/scenes/alley.png",
+    "bytes": 3261133,
+    "sha256": "ed0b225952a6522e885dda32340e49167a8562444a40d66b2004df1f4e0a984d"
+  },
+  {
+    "path": "assets/scenes/barbecue-night.png",
+    "bytes": 3122813,
+    "sha256": "b61faa7e2a6f9ad33289e9c046b625b46a4646c97db77d61525cd1e70bbb122c"
+  },
+  {
+    "path": "assets/scenes/breakfast-morning-open.png",
+    "bytes": 3192017,
+    "sha256": "c2b38d2e48f7ba41f2ba47863b8d469985260eeec2e9dfe25d208bbd7e699c05"
+  },
+  {
+    "path": "assets/scenes/breakfast-pot-closed.png",
+    "bytes": 3194965,
+    "sha256": "71742bd934ccb82cb102aa6f8841aba5fa50004c88459875b80da0424994ea0f"
+  },
+  {
+    "path": "assets/scenes/courtyard-cinema.png",
+    "bytes": 2855797,
+    "sha256": "be5e23ef4d1bf9486d48f23b3929dac1bfd64830972affe15d6639e51bcc4405"
+  },
+  {
+    "path": "assets/scenes/ferry-pier.png",
+    "bytes": 2699192,
+    "sha256": "0d20fb08a7d6519d15224d37bbdd77a1e8786a4f3382645e0ae1cb8f7e5045b0"
+  },
+  {
+    "path": "assets/scenes/ferry-rail.png",
+    "bytes": 978424,
+    "sha256": "c37b57cf426e42ebf88854cef6786704cb7d5c4a8bebddfa2f93dccdc9eb49a1"
+  },
+  {
+    "path": "assets/scenes/ferry-river.png",
+    "bytes": 2924036,
+    "sha256": "295186e5c5bb8bcd6558e03525b39053c1a9c8d3f22b6f900cbc0e27cf4cf5b9"
+  },
+  {
+    "path": "assets/scenes/grocery.png",
+    "bytes": 3250848,
+    "sha256": "d882a0342b7f1c19d24143884a33c96728f18cfed9bd581a42594a1c11c368f8"
+  },
+  {
+    "path": "assets/scenes/market-day.png",
+    "bytes": 3484923,
+    "sha256": "f4555c22bd473fe89f56722be81d8cfbf1e59c9e8188f221fd06d7b5810b38e5"
+  },
+  {
+    "path": "assets/scenes/neighbors.png",
+    "bytes": 3188507,
+    "sha256": "9f35dd3386a4ef7b892dc782d8371a22eed020b4038ef0a779a31a9e5d3f3ba0"
+  },
+  {
+    "path": "assets/scenes/newsstand-day.png",
+    "bytes": 3523872,
+    "sha256": "e3bb41742092e155295afec68c42d63cb8c39e435975d8c1809ede5c3eaa19bd"
+  },
+  {
+    "path": "assets/scenes/night-fishing-clean.png",
+    "bytes": 2538355,
+    "sha256": "f301e0e853723d73face1568689b279c881cc4005aa34eab978896e875d93643"
+  },
+  {
+    "path": "assets/scenes/night.png",
+    "bytes": 2997976,
+    "sha256": "b7497fc2c5a041c32daf004e4fccb769007b5233c1a9c3fd7ee121e1f4bd5fd2"
+  },
+  {
+    "path": "assets/scenes/river-exercise.png",
+    "bytes": 3255191,
+    "sha256": "5179de93a0b6847a6bb057e2a1f3d1b9ea80088ea22951c7f4013eac26b8191c"
+  },
+  {
+    "path": "assets/scenes/route-morning.png",
+    "bytes": 3545495,
+    "sha256": "15f747abf23537f1714100df18029c077d7c5f1d802136c1cf1f166781ebe039"
+  },
+  {
+    "path": "assets/scenes/route-night.png",
+    "bytes": 3479818,
+    "sha256": "b578141c1dc5654ad33859d379bd401351752cfc00d4dd401ffc36ab9d582e25"
+  },
+  {
+    "path": "assets/scenes/soup-night.png",
+    "bytes": 2613869,
+    "sha256": "ef4cd3644af7e06d67b0f40cf329e5d6f3a955867b8ff5785c9ebde1c09be2a0"
+  },
+  {
+    "path": "assets/sprites/cooking-breakfast.png",
+    "bytes": 2669043,
+    "sha256": "2821a0b83b6fbd5835cc8ce1097bd63c13b2908eaa0670115fdc59eb1367097b"
+  },
+  {
+    "path": "assets/sprites/market-cutouts.png",
+    "bytes": 2623917,
+    "sha256": "8989955f18004684f687fdf5aa8afb05084bc18098e17838201acc3252757034"
+  },
+  {
+    "path": "assets/sprites/objects.png",
+    "bytes": 1844741,
+    "sha256": "1f09af247bb0af9970272a3d1eb3fa8a823499f7c15371573a2e98ce448e03a7"
+  },
+  {
+    "path": "assets/sprites/states.png",
+    "bytes": 1969814,
+    "sha256": "01a6745a39784289214ffaef4f01f1ba604521789c4764f0f3dde019b61734b4"
+  },
+  {
+    "path": "assets/vendor/gsap.min.js",
+    "bytes": 72214,
+    "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+  },
+  {
+    "path": "assets/video/steam.apng",
+    "bytes": 844721,
+    "sha256": "0dc765fb4e496c75ab7808d64faa688fac89f09f0e2024c418471bb296ff88fc"
+  },
+  {
+    "path": "content.js",
+    "bytes": 18861,
+    "sha256": "0fd8b471215524dc4716b5c28895d8b4a2871e8e89107a68ab5b330802ff91f5"
+  },
+  {
+    "path": "index.html",
+    "bytes": 10119,
+    "sha256": "38d69093fef2515ff88a392e27c401f85188466db9f0abd766262b051fc024ea"
+  },
+  {
+    "path": "journeys.css",
+    "bytes": 22017,
+    "sha256": "2f93524dcf85311d99ce8493adc148bdc3d49a9b7293a443d7070eee84d578d2"
+  },
+  {
+    "path": "journeys.js",
+    "bytes": 29813,
+    "sha256": "6e01527b62b3866d394cb074dfec3d45c6f2407158bc087107b7216ee43ad562"
+  },
+  {
+    "path": "music.js",
+    "bytes": 3670,
+    "sha256": "6aee021c6c32423ccf480803a340c36741aecf9ff0d3c694a14883eba6ddcd84"
+  },
+  {
+    "path": "periods.js",
+    "bytes": 19656,
+    "sha256": "17946f92ff070bc8dbffeb4925ea53c08ce77583d099520e25810f9dbf17a3e1"
+  },
+  {
+    "path": "qa/story-day/assets-checks.json",
+    "bytes": 6447,
+    "sha256": "d4a7652a96d35f6b8a1a9a2b85062859261ec905890fb27b9e0f071ea9436271"
+  },
+  {
+    "path": "qa/story-day/browser-checks.json",
+    "bytes": 2199,
+    "sha256": "9810091f5cb57af271c2ecd2ca01c1e04970283d7cd6a26b88e243909585337c"
+  },
+  {
+    "path": "qa/story-day/cinema-original-story.png",
+    "bytes": 137322,
+    "sha256": "0eaa195adadf673f315ec3e0265427c1d870406b0e7e5c0f4f9be7b638f9863d"
+  },
+  {
+    "path": "qa/story-day/cinema-remembers-newspaper.png",
+    "bytes": 139168,
+    "sha256": "b5624d37b6a9a703143e76755eef1cfc28e0f7d6bd629297d609f6b21bebc340"
+  },
+  {
+    "path": "qa/story-day/cup-mark-discovered.png",
+    "bytes": 185015,
+    "sha256": "0df5b8b55b0d1518cab0307961bfdb8c7c6870887d99d63feef9938edccdc389"
+  },
+  {
+    "path": "qa/story-day/declined-no-delivery.png",
+    "bytes": 51430,
+    "sha256": "6c49ca01accbec36a75a955b62fa392b8821eb6485d91ba457522219087e3391"
+  },
+  {
+    "path": "qa/story-day/desktop-returned-basket.png",
+    "bytes": 55346,
+    "sha256": "f85725dfa2cee529f49b36b1b2ee5ae260ed92e5aee63d86063f006041ee5a1b"
+  },
+  {
+    "path": "qa/story-day/final-morning-overview.png",
+    "bytes": 119844,
+    "sha256": "4625a46e3e9e3af93ed4d89a666714e2ca19188bfb5c4aa289a4f052b8e02a94"
+  },
+  {
+    "path": "qa/story-day/mobile-chen-empty-basket.png",
+    "bytes": 28855,
+    "sha256": "8a76569baf9dec2ee25a079db080c0ad4591beaca51804960bdd6c5cb23ba231"
+  },
+  {
+    "path": "qa/story-day/mobile-chen-first.png",
+    "bytes": 25253,
+    "sha256": "f7133bd962a041ac70ca51ce1e502e239a8e841a4c7cdf1cc1c3b17e220099d9"
+  },
+  {
+    "path": "qa/story-day/mobile-ferry-no-imaginary-belongings.png",
+    "bytes": 67693,
+    "sha256": "226fb95ec831fdbfefc55805e179419fc23df075641e0abc9e075fcc7572deb2"
+  },
+  {
+    "path": "qa/story-day/mobile-menu-time-layer.png",
+    "bytes": 36580,
+    "sha256": "df6adbb15b54be58aec5789298424f62a0b514c87ded814284dac030100a9a1d"
+  },
+  {
+    "path": "qa/story-day/mobile-optional-errand-choice.png",
+    "bytes": 54770,
+    "sha256": "ef0defaf4cc6cf7c2963fa1b5e3ab13a528e7e23528252002067e0a7ada735b5"
+  },
+  {
+    "path": "qa/story-day/mobile-personal-postcard.png",
+    "bytes": 55856,
+    "sha256": "52e41d204e0f26a26e7d87c6e64adb2fa8c36fcf1f8ca2cac000cc2b68f2eca9"
+  },
+  {
+    "path": "qa/story-day/mobile-radio-programme.png",
+    "bytes": 49518,
+    "sha256": "824b0da19d028f8f79104f8b49423952e999c74c1ba00403346e232783f2d8ee"
+  },
+  {
+    "path": "qa/story-day/mobile-readable-newspaper.png",
+    "bytes": 48514,
+    "sha256": "d18bf37f9e90fb8efc8dff055e424dcb978cf55608465bc44d5650e6d88e0f7d"
+  },
+  {
+    "path": "qa/story-day/mobile-stool-note.png",
+    "bytes": 65092,
+    "sha256": "19c453147fd41b8ac4c9d43d53937bd334b3d886942a250237956986e82d27de"
+  },
+  {
+    "path": "qa/story-day/mobile-wu-remembers-flavor.png",
+    "bytes": 26545,
+    "sha256": "92d1eddcefc1f9e6ffc552abfd5b0767d5e64590b28afdb5b52bf868db01a581"
+  },
+  {
+    "path": "qa/story-day/night-first-no-errand.png",
+    "bytes": 51372,
+    "sha256": "c20e74799d00f0c7fcf978a7630ac7b93a7f25944f104516eac79c47f22dd473"
+  },
+  {
+    "path": "qa/story-day/no-lotus-delivery.png",
+    "bytes": 56822,
+    "sha256": "fcf82bf5822c28468fff703a8bdc8d7c6e1ba3a5db576795c3bf167c17477beb"
+  },
+  {
+    "path": "qa/story-day/p0-returned-basket.png",
+    "bytes": 55352,
+    "sha256": "759108d6eabf07e4fdad8994585b54d57ad84a36eea5ca7b72cf23d97bf7a33b"
+  },
+  {
+    "path": "qa/story-day/postcard-actual-experiences.png",
+    "bytes": 2597002,
+    "sha256": "40b96452d6b74dc222e7fbecf93ac173c186f87ade696a6ccbc3c81137c3fb3e"
+  },
+  {
+    "path": "qa/story-day/radio-li-complete.png",
+    "bytes": 110436,
+    "sha256": "40eea3bc5a0a62a54531bdcfd6bf6b1e18ee8d0a299c153d33cf5e8c21f04fde"
+  },
+  {
+    "path": "qa/story-day/state-checks.json",
+    "bytes": 1158,
+    "sha256": "37877254b321675ee55915b34e8ca2647108a7d3b8fdceb65af6b128bf6c8c25"
+  },
+  {
+    "path": "qa/story-day/验证记录.md",
+    "bytes": 4543,
+    "sha256": "bdc00f9edc24eeaafd98b017d5cedea06ce5a2545c19ea1b579977acb2e40e30"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8499,
+    "sha256": "84d1b1794a953968b545cfa5c3155287b6763b1d8accda34179d7fe02a3a91b9"
+  },
+  {
+    "path": "scenes.js",
+    "bytes": 4384,
+    "sha256": "23829d5f93cf99ac48fdf86c13b7a824e3125246a515687959381837caa0fbcf"
+  },
+  {
+    "path": "server.mjs",
+    "bytes": 2483,
+    "sha256": "6483a9ea96a851e3c25ff0fe404654ca4295243a18c127d7204dc6e23ab65b2d"
+  },
+  {
+    "path": "story-state.js",
+    "bytes": 4718,
+    "sha256": "05d003df9a3433ba78e5fadd0e1a776106e3b4101eba4dbf71317dcda1f02e86"
+  },
+  {
+    "path": "story-ui.js",
+    "bytes": 11457,
+    "sha256": "70011ad9b976f918cbf350efc18bdabb45efbf2e39bf2290658cbe283c3b8c79"
+  },
+  {
+    "path": "story.css",
+    "bytes": 13588,
+    "sha256": "8a886e30287498eb3e973fdebc13ac25ada14fcf40678fd42bcdc8aac15b2276"
+  },
+  {
+    "path": "styles.css",
+    "bytes": 33741,
+    "sha256": "2bcffd0ef22e9c4c4c0ee2d23e39eb79fe08c80158e73053e4097d1344a3b544"
+  },
+  {
+    "path": "tools/check-story-assets.mjs",
+    "bytes": 2461,
+    "sha256": "0b5c48dd2cce3df12b7fb89aa2f39e22a5ba51c9a5e625d34dbdd832c41fbd96"
+  },
+  {
+    "path": "tools/imagegen-barbecue-prompts.json",
+    "bytes": 4704,
+    "sha256": "78801e4b02f05f93f68a1e63d0d51dd2782edb622b33ff373d0ef6f48ed3772d"
+  },
+  {
+    "path": "tools/imagegen-breakfast-cooking-prompt.json",
+    "bytes": 1100,
+    "sha256": "c83c059f107c5a582bce9d1b42cf8561dbbfbcd36e8844e62aa020d52ace2546"
+  },
+  {
+    "path": "tools/imagegen-day-night-prompts.json",
+    "bytes": 9678,
+    "sha256": "ef37c37d740ae9bd67b0b195ade8fb6cf9367c1bf093d9a4b2565970d22bd90a"
+  },
+  {
+    "path": "tools/imagegen-fishing-clean.json",
+    "bytes": 637,
+    "sha256": "415ba437ea12fdda2a53b2ad1cf85313b9587f435231145d7b50a013876805a1"
+  },
+  {
+    "path": "tools/imagegen-morning-prompts.json",
+    "bytes": 5231,
+    "sha256": "e940ea021a3974d4e9625e3760e9d845fc4f78542b585128d0769574e3da70ad"
+  },
+  {
+    "path": "tools/imagegen-prompts.json",
+    "bytes": 13241,
+    "sha256": "73dfc69aefa9574d1e4285518ee42e9368b6b0ba6fd0ae86777ae550e6d1b910"
+  },
+  {
+    "path": "tools/imagegen-river-journeys-prompts.json",
+    "bytes": 14701,
+    "sha256": "e5dbfd6d25c1ec00042ef7d4fbc9650b089f93c85577a456fac33e3926200d1a"
+  },
+  {
+    "path": "tools/imagegen-soup-identity.json",
+    "bytes": 861,
+    "sha256": "77fcb7a9e0f15ef2ffe6ae496fcc8af77a90e406279cf7ef6602fc78313a1a8d"
+  },
+  {
+    "path": "tools/package-story.py",
+    "bytes": 1393,
+    "sha256": "fa14295f4af14b1f19666fc065b924af65bd8f7daacc1bea3064334b3ede707d"
+  },
+  {
+    "path": "tools/test-story-state.mjs",
+    "bytes": 5778,
+    "sha256": "bb307b7add4aece58c3ca25e75bacf59cb633a616cc898b0fc0e6e86574c32b2"
+  },
+  {
+    "path": "打开本地预览.cmd",
+    "bytes": 219,
+    "sha256": "0026022b9b53977f4dbc82e996dda5f1de56a869719c23f63aab5f9d12dd3e95"
+  }
+]
