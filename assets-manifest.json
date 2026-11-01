@@ -426,8 +426,8 @@
   },
   {
     "path": "qa/guided-route/history-river-large.png",
-    "bytes": 253494,
-    "sha256": "a29dd586b3cd5871c29a2664c8ead5cee032b28596671fe67e2a49364b88c7af"
+    "bytes": 225201,
+    "sha256": "27b95e6191686bfb79d1cf5206e0375a6ab91c46a0dc018165eb8d8ca5af8bef"
   },
   {
     "path": "qa/guided-route/history-river-mobile.png",
