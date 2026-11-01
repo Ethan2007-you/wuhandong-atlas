@@ -79,12 +79,22 @@
   if(!memory.ticket){ticket();return;}
   shell('ferry','把这一段路，交给江。','拖动江面看向两岸。扶好栏杆，船会慢慢开。');
   $('.journey-playfield').innerHTML='<div class="river-window"><div class="river-track"><img src="assets/scenes/ferry-river.png" alt="两岸和宽阔江面，随轮渡缓慢移动"></div><div class="river-shimmer" aria-hidden="true"></div><img class="ferry-foreground" src="assets/scenes/ferry-rail.png" alt="轮渡甲板的木扶手和缆绳"><div class="river-position" aria-hidden="true"><span>这一岸</span><i></i><span>那一岸</span></div></div>';
-  const track=$('.river-track'),camera={t:0,look:0};let voyage=null,lookStart=0,started=false;
-  const render=()=>{gsap.set(track,{xPercent:-2-camera.t*38+camera.look*2,y:reduced?0:Math.sin(camera.t*11)*2});$('.river-position i').style.setProperty('--crossing',camera.t);};
+  const track=$('.river-track'),rail=$('.ferry-foreground'),river=$('.river-window'),camera={t:0,look:0};let voyage=null,lookStart=0,started=false;
+  // A boat follows several small waves rather than one perfectly regular lift.
+  // Ease the swell in/out so departure and docking remain steady.
+  const smooth=v=>{v=clamp(v,0,1);return v*v*(3-2*v);};
+  const render=()=>{
+   const seconds=camera.t*18,swell=reduced?0:smooth(camera.t/.12)*smooth((1-camera.t)/.15);
+   const amplitude=Math.min(innerHeight*.012,10),heave=(Math.sin(seconds*1.65)+Math.sin(seconds*.73)*.32)*amplitude*swell;
+   const roll=(Math.sin(seconds*1.12)*.32+Math.sin(seconds*.49)*.10)*swell;
+   gsap.set(track,{xPercent:-2-camera.t*38+camera.look*2,y:-heave*.6,rotation:-roll*.55,scale:1.04,transformOrigin:'50% 55%'});
+   gsap.set(rail,{y:heave,rotation:roll,scale:1.05,transformOrigin:'50% 80%'});
+   $('.river-position i').style.setProperty('--crossing',camera.t);
+  };
   draggable($('.river-window'),{move:({dx})=>{camera.look=clamp(lookStart+dx/innerWidth,-1,1);render();},end:()=>{lookStart=camera.look;}});
   listen($('.river-window'),'keydown',e=>{if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();camera.look=clamp(camera.look+(e.key==='ArrowLeft'?.2:-.2),-1,1);render();}});$('.river-window').tabIndex=0;$('.river-window').setAttribute('aria-label','左右拖动看江，左右方向键也可转动视线');render();
-  const start=()=>{if(started)return;started=true;phase('crossing');$('.journey-buttons').replaceChildren();feedback('breeze-recorded.wav',.10);caption('缆绳松了，岸上的人和房子慢慢退后。');const pause=button('慢慢看两岸',()=>{if(voyage.paused()){voyage.resume();pause.textContent='慢慢看两岸';}else{voyage.pause();pause.textContent='继续这段航程';}},'journey-secondary');
-   voyage=gsap.timeline({onComplete(){memory.crossed=true;phase('arrived');caption(window.STREET_CONTENT.ferryArrival(window.StreetStory.get()));finish('靠岸了，去入夜的汤铺 →',routeOnward(ctx=>ctx.evening()));}});motions.push(voyage);voyage.to(camera,{t:1,duration:reduced?6:18,ease:'none',onUpdate:render},0).call(()=>caption('离岸远一点，才看见江有多宽。街巷在身后，另一岸在眼前。'),[],reduced?2:6).call(()=>caption('船从两岸之间穿过。轮渡，也是武汉人的日常。'),[],reduced?4:12);
+  const start=()=>{if(started)return;started=true;phase('crossing');river.dataset.sailing='true';$('.journey-buttons').replaceChildren();feedback('breeze-recorded.wav',.10);caption('缆绳松了，船身随波轻轻起伏，两岸的房子缓缓退后。');const pause=button('停一停，看两岸',()=>{if(voyage.paused()){voyage.resume();river.dataset.sailing='true';pause.textContent='停一停，看两岸';}else{voyage.pause();river.dataset.sailing='false';pause.textContent='继续这段航程';}},'journey-secondary');
+   voyage=gsap.timeline({onComplete(){river.dataset.sailing='false';memory.crossed=true;phase('arrived');caption(window.STREET_CONTENT.ferryArrival(window.StreetStory.get()));finish('靠岸了，去入夜的汤铺 →',routeOnward(ctx=>ctx.evening()));}});motions.push(voyage);voyage.to(camera,{t:1,duration:reduced?6:18,ease:'none',onUpdate:render},0).call(()=>caption('离岸远一点，才看见江有多宽。街巷在身后，另一岸在眼前。'),[],reduced?2:6).call(()=>caption('船从两岸之间穿过。轮渡，也是武汉人的日常。'),[],reduced?4:12);
   };
   button(memory.crossed?'再坐一班船':'随船出发 →',start);caption('船票已验好。今天不赶路，坐一班船去那一岸。');
  }

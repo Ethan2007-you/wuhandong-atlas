@@ -226,13 +226,13 @@
   },
   {
     "path": "journeys.css",
-    "bytes": 22017,
-    "sha256": "2f93524dcf85311d99ce8493adc148bdc3d49a9b7293a443d7070eee84d578d2"
+    "bytes": 22321,
+    "sha256": "917aa1057e676300e0a495f8aab41b98844b0c773fedad0239d15dd80e7ff069"
   },
   {
     "path": "journeys.js",
-    "bytes": 30109,
-    "sha256": "20e396a7fd0d23aad3f57ec46eb0f70d9e047cb897e36a52ea321e4004287c70"
+    "bytes": 30940,
+    "sha256": "a878203533ad9de6228545ec1ec30f72f84b45e8600802fe9e353f27e936b139"
   },
   {
     "path": "music.js",
@@ -270,6 +270,16 @@
     "sha256": "45cc633bb48463636bd3e4e0481458f6a6fa7ad9106f3df0ab33d29e5ddc4017"
   },
   {
+    "path": "qa/guided-route/ferry-motion-checks.json",
+    "bytes": 925,
+    "sha256": "e5dc5118d4ee4b50bbefe87b4aa25fb840d6eae34cd37584dd6316a74320ca04"
+  },
+  {
+    "path": "qa/guided-route/ferry-swell.png",
+    "bytes": 245707,
+    "sha256": "2b5e770c4bc3120b5e4c5d1e66e99ed8245899613def0cda4dffc5dc942805ff"
+  },
+  {
     "path": "qa/guided-route/mobile-current-step.png",
     "bytes": 76645,
     "sha256": "ec8bc26e03c4e3070063d43281d4f54e50e0b8ed9a5760a6adde352d6e0b6f05"
@@ -296,8 +306,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3719,
-    "sha256": "ca092239391b217a95007a0352dab4f2bf9e862df8e568bb6d291a3d5137d9af"
+    "bytes": 3957,
+    "sha256": "b0774c42d1ef0fb970438d73a9bab0bc8372ae13d83eefec5f40691f8c138d2a"
   },
   {
     "path": "route.css",

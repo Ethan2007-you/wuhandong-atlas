@@ -27,3 +27,7 @@ body[data-light=morning] .journey-fan .journey-backdrop{opacity:1;filter:saturat
 @media(max-width:650px){.journey-cinema .journey-playfield,.journey-fishing .journey-playfield{width:100vw}}
 @media(max-width:650px){.overview-heading h1{font-size:clamp(1.5rem,6.5vw,2rem);letter-spacing:.07em}.overview-heading p{font-size:11px;letter-spacing:.04em}}
 @media(max-width:650px){.overview-note{right:126px}.overview-note .tiny-line{flex-shrink:0}.overview-note p{font-size:10px}}
+
+/* Extra image bleed keeps small boat rolls from exposing the image boundary. */
+.river-window .ferry-foreground{will-change:transform}.river-window[data-sailing=false] .river-shimmer{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.river-window .ferry-foreground{will-change:auto}}

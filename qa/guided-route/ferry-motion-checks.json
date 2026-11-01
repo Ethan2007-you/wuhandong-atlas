@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS",
+  "start": {
+    "rail": "matrix(1.05, 1.05553e-05, -1.05553e-05, 1.05, 0, 0.0265)",
+    "track": "matrix(1.04, -5.75014e-06, 5.75014e-06, 1.04, -86.1349, -0.0159)"
+  },
+  "moving": {
+    "rail": "matrix(1.04999, -0.00509992, 0.00509992, 1.04999, 0, 8.7952)",
+    "track": "matrix(1.04, 0.00277825, -0.00277825, 1.04, -790.61, -5.2771)"
+  },
+  "pausedStable": true,
+  "docked": {
+    "rail": "matrix(1.05, 0, 0, 1.05, 0, 0)",
+    "sailing": "false",
+    "track": "matrix(1.04, 0, 0, 1.04, -1512, 0)"
+  },
+  "checks": [
+    "Background translation, foreground heave and independent roll observed",
+    "Pause holds both layer transforms exactly",
+    "Resume reaches arrival; rotation and vertical translation settle to zero",
+    "Closing the flow removes animated scene",
+    "Reduced-motion branch explicitly keeps swell at zero; not emulated in browser"
+  ],
+  "console": []
+}
