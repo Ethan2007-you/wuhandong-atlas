@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS",
+  "actualUi": [
+    "Desktop complete 12-stop route with no skips: breakfast, lotus/greens reservation, paper, fan, ticket, ferry, delivery, charcoal, soda, film, basket return, cast/lift",
+    "Film frame and next-stop feedback reflect delivered basket",
+    "Mobile 390x844 intro and guide; topbar and guide collision fixed",
+    "Mobile radish/greens declined errand: soup becomes pot interaction, Chen has no empty basket",
+    "Explicit skipped steps and refresh recovery",
+    "UI restart clears itinerary and story and returns morning intro",
+    "No active export feature or missing assigned images"
+  ],
+  "view": {
+    "brokenImages": [],
+    "period": "morning",
+    "removedFeaturePresent": false,
+    "scrollX": false,
+    "scrollY": false,
+    "state": "Overview",
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "console": {
+    "fullRoute": [],
+    "final": []
+  },
+  "limitations": [
+    "Mobile viewport checked, no physical device",
+    "Existing radio remains original timed subtitles, no narration",
+    "One failed local server connection at sandboxed port 4326; actual verification used accessible local port 4327"
+  ]
+}

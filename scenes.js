@@ -28,7 +28,6 @@ window.STREET_SCENES = Object.freeze([
     {id:'radio',name:'转转收音机',x:.49,y:.575,w:.15,h:.13,type:'radio'},
     {id:'stool',name:'坐这个空位',x:.43,y:.83,w:.16,h:.17,type:'stool'}]},
   {id:'night',name:'夜归处',en:'TAKE THE WARMTH HOME',time:'21:38',x:.93,y:.84,focus:[.49,.53],image:'assets/scenes/night.png',title:'烟火不散，<br>武汉东。',intro:'留句话给晚归的自己，把这点暖意带走。',actions:[
-    {id:'postcard',name:'写一张明信片',x:.275,y:.78,w:.13,h:.11,type:'postcard'},
     {id:'wind',name:'听一阵江风',x:.78,y:.53,w:.19,h:.22,type:'wind'},
     {id:'lastlight',name:'再留一盏灯',x:.94,y:.53,w:.11,h:.13,type:'lastlight'}]}
 ]);

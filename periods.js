@@ -1,4 +1,3 @@
-/* Active morning/night routes; story content lives in content.js. */
 window.STREET_PERIODS = {
   "morning": {
     "label": "晨起",
@@ -6,7 +5,7 @@ window.STREET_PERIODS = {
     "image": "assets/scenes/route-morning.png",
     "time": "06:40—08:10 / 过早 · 赶集 · 过江",
     "headline": "过早以后，去过江。",
-    "subtitle": "今天走回这条街，吴姐还先问口味。",
+    "subtitle": "从过早铺到江上，替陈姨留一篮明早的菜。",
     "note": "从巷子走到码头，江在这幅画里流动。",
     "scenes": [
       {
@@ -23,7 +22,7 @@ window.STREET_PERIODS = {
         ],
         "image": "assets/scenes/breakfast-pot-closed.png",
         "title": "吴姐先问口味，<br>再下这一碗。",
-        "intro": "锅开着，口味便条也留着。她正找一只杯底刻三角的杯。",
+        "intro": "先选口味，看吴姐做一碗面。吃好后去菜场，替陈姨留菜。",
         "actions": [
           {
             "id": "door",
@@ -220,17 +219,6 @@ window.STREET_PERIODS = {
             "h": 0.13,
             "trace": "movie-notice",
             "noteWidth": 0.1
-          },
-          {
-            "id": "trace-cup-notice",
-            "name": "杯子的招领条",
-            "type": "trace",
-            "x": 0.69,
-            "y": 0.46,
-            "w": 0.1,
-            "h": 0.13,
-            "trace": "cup-notice",
-            "noteWidth": 0.1
           }
         ]
       },
@@ -309,17 +297,6 @@ window.STREET_PERIODS = {
             "line": "船在水里轻轻靠着。",
             "text": "骑车上班的人从跳板走过，买菜的篮子靠在脚边。这班船承载的是普通的一天。",
             "cropWidth": 0.32
-          },
-          {
-            "id": "trace-ticket-note",
-            "name": "翻到船票背面",
-            "type": "trace",
-            "x": 0.2,
-            "y": 0.53,
-            "w": 0.11,
-            "h": 0.13,
-            "trace": "ticket-note",
-            "noteWidth": 0.11
           }
         ]
       },
@@ -347,15 +324,6 @@ window.STREET_PERIODS = {
             "y": 0.62,
             "w": 0.5,
             "h": 0.4
-          },
-          {
-            "id": "morning-postcard",
-            "name": "写一张江上明信片",
-            "type": "postcard",
-            "x": 0.84,
-            "y": 0.49,
-            "w": 0.16,
-            "h": 0.24
           }
         ]
       }
@@ -368,7 +336,7 @@ window.STREET_PERIODS = {
     "image": "assets/scenes/route-night.png",
     "time": "18:10—22:15 / 傍晚备料 · 院坝开映 · 江边坐坐",
     "headline": "夜色不止一条街。",
-    "subtitle": "晚点回来，看看白天留下的事。",
+    "subtitle": "到汤铺交菜，找陈姨取篮，最后去江边收竿。",
     "note": "放一场电影，听一段晚风，坐到水边去。",
     "scenes": [
       {
@@ -555,17 +523,6 @@ window.STREET_PERIODS = {
             "type": "fan"
           },
           {
-            "id": "cup",
-            "name": "认认杯底的三角",
-            "x": 0.66,
-            "y": 0.67,
-            "w": 0.11,
-            "h": 0.13,
-            "type": "trace",
-            "trace": "cup-mark",
-            "noteWidth": 0.11
-          },
-          {
             "id": "torch",
             "name": "试试旧手电",
             "x": 0.8,
@@ -573,17 +530,6 @@ window.STREET_PERIODS = {
             "w": 0.14,
             "h": 0.13,
             "type": "torch"
-          },
-          {
-            "id": "trace-deposit-ledger",
-            "name": "翻开押瓶本",
-            "type": "trace",
-            "x": 0.57,
-            "y": 0.53,
-            "w": 0.11,
-            "h": 0.13,
-            "trace": "deposit-ledger",
-            "noteWidth": 0.11
           }
         ]
       },
@@ -640,28 +586,6 @@ window.STREET_PERIODS = {
             "w": 0.16,
             "h": 0.17,
             "type": "stool"
-          },
-          {
-            "id": "trace-fan-name",
-            "name": "翻看蒲扇背面的名字",
-            "type": "trace",
-            "x": 0.26,
-            "y": 0.65,
-            "w": 0.1,
-            "h": 0.13,
-            "trace": "fan-name",
-            "noteWidth": 0.1
-          },
-          {
-            "id": "trace-stool-repair",
-            "name": "看看修过的凳脚",
-            "type": "trace",
-            "x": 0.43,
-            "y": 0.89,
-            "w": 0.1,
-            "h": 0.13,
-            "trace": "stool-repair",
-            "noteWidth": 0.1
           }
         ]
       },
@@ -689,15 +613,6 @@ window.STREET_PERIODS = {
             "y": 0.67,
             "w": 0.32,
             "h": 0.35
-          },
-          {
-            "id": "night-postcard",
-            "name": "把江边的夜色带走",
-            "type": "postcard",
-            "x": 0.18,
-            "y": 0.83,
-            "w": 0.16,
-            "h": 0.15
           },
           {
             "id": "river-tea",

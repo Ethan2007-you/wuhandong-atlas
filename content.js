@@ -21,21 +21,21 @@
    if(s.programsRead.includes('letters'))return{branch:'letters',lines:['那张招领条写的是吴姐的杯。陈姨说像我的，我的杯底哪有三角？','把旋钮对到“机修手记”那格，别停在两格中间。橡皮圈的来历还没讲。']};
    return{branch:first?'first':'again',lines:first?['姓李，以前在轮渡干机修。这个旋钮别掰到底，老机子得顺着它的脾气。','先对准“机修手记”那格，再看我为什么不肯换它。不是舍不得那几个钱。']:['还差半格。你说差不多，我耳朵可不认。','陈姨拿蓝布套垫凳脚，我用铅丝箍裂口。她把难看的留给我，好看的归她。']};
   }
-  if(s.discoveredMemories.includes('cup-mark'))return{branch:'cup',lines:['你在杂货柜看见杯底的△了？那就是我的。陈姨又当李伯的收起来了。',flavor?'你的口味便条还贴着：'+flavor+'。要换口味你说一声，我不猜。':'这回要哪种口味？我先写下来，再下碗。']};
+  if(false)return{branch:'cup',lines:['你在杂货柜看见杯底的△了？那就是我的。陈姨又当李伯的收起来了。',flavor?'你的口味便条还贴着：'+flavor+'。要换口味你说一声，我不猜。':'这回要哪种口味？我先写下来，再下碗。']};
   if(s.breakfastMade)return{branch:'made',lines:[flavor?flavor+'那碗做好了。下回照这张便条做，不用你重新解释。':'刚才那碗做好了。你没选口味，我就没替你写“照旧”。','第二锅面窝在炸，桌上几只给街坊留的。别看纸上有“售完”两个字就掉头。']};
   if(flavor)return{branch:'ordered',lines:['记下了，'+flavor+'。便条压在碗底，忙也不会拿错。','李伯就会说“再一点”，辣一点还是葱一点？你比他讲得清楚。']};
-  return{branch:first?'first':'again',lines:first?['叫我吴姐。先说口味，辣和葱分开记，免得李伯一喊“照旧”又嫌辣。','陈姨昨晚借了我的搪瓷杯，底下刻个三角。她说没拿，我先不跟她争。']:['锅正开着，口味还没写。你不说，我就不能替你记成“老样子”。','“第一锅售完”后面还有一行：第二锅在炸。那行是陈姨替我添的，字大多了。']};
+  return{branch:first?'first':'again',lines:first?['叫我吴姐。先说口味，辣和葱分开记，免得李伯一喊“照旧”又嫌辣。','吃过面，第二站去菜场。陈姨托的菜先寄在那里保鲜，晚上再交给周姐。']:['锅正开着，口味还没写。你不说，我就不能替你记成“老样子”。','“第一锅售完”后面还有一行：第二锅在炸。那行是陈姨替我添的，字大多了。']};
  }
  function delivery(s){const p=items(s.errandProduce),lotus=s.errandProduce.includes('lotus');
-  if(s.basketErrand==='reserved')return{title:'周姐把备料笺转了过来。',lines:['早晨寄存的菜篮已从菜摊保鲜箱取出。傍晚路过汤铺，你把单子上的名字核一核，再交给周姐。','周姐：“'+p+'，是陈姨明早要用的这篮吧？”',lotus?'“藕留作明早那锅。今晚这锅中午就煨上了，不能算你的功劳。”':'“没有藕没事，这些明早做配菜。汤里的藕我另备，两份分开记。”'],confirm:true};
-  if(['delivered','returned'].includes(s.basketErrand))return{title:'菜已经收进保鲜柜。',lines:[lotus?'陈姨选好的莲藕那栏，周姐已划了接收记号。':'你带的是'+p+'，配菜一栏已划收；莲藕一栏标着“周姐另备”。',s.basketErrand==='returned'?'空篮已经由陈姨还给你，不会再交接第二次。':'空篮被陈姨带到纳凉小桌旁了。她还惦记着把篮子还你。','今晚的汤是中午煨好的；你帮忙备的是明早的料。'],confirm:false};
+  if(s.basketErrand==='reserved')return{title:'这篮菜，交给周姐。',lines:['早晨寄存的菜篮已从菜摊保鲜箱取出。傍晚路过汤铺，你把单子上的名字核一核，再交给周姐。','周姐：“'+p+'，是陈姨明早要用的这篮吧？”',lotus?'“藕留作明早那锅。今晚这锅中午就煨上了，不能算你的功劳。”':'“没有藕没事，这些明早做配菜。汤里的藕我另备，两份分开记。”'],confirm:true};
+  if(['delivered','returned'].includes(s.basketErrand))return{title:'菜已经收进保鲜柜。',lines:[lotus?'你选好的莲藕那栏，周姐已划了接收记号。':'你带的是'+p+'，配菜一栏已划收；莲藕一栏标着“周姐另备”。',s.basketErrand==='returned'?'空篮已经由陈姨还给你，不会再交接第二次。':'空篮被陈姨带到纳凉小桌旁了。她还惦记着把篮子还你。','今晚的汤是中午煨好的；你帮忙备的是明早的料。'],confirm:false};
   return{title:'周姐的明早备料笺。',lines:[s.basketErrand==='declined'?'“你早上那篮自己带着吧。我给陈姨另留，不混着记。”':'“你是来喝汤的吧？明早这张单我留着。陈姨没托上人，我就自己去补。”','眼前这一锅中午就上火了。灶边另一张纸，是明早的备料，墨还没干。'],confirm:false};
  }
  const traces={
   'menu-edit':{scene:'breakfast',title:'添了一行的早点单',short:'第一锅售完？',text:'“第一锅面窝售完”下面，陈姨替吴姐添了一行：“第二锅 07:20 出锅；桌上几只给街坊留的。”旧单和后来添的字均为原创情景，不作武汉历史价格记录。',link:'想知道谁写的，去纳凉处问陈姨。'},
   'flavor-note':{scene:'breakfast',title:'吴姐的口味便条',short:'口味写在这里',text:'辣和葱分开写。李伯只说“再一点”，她干脆把“说明白”三个字贴在灶边。',link:'点吴姐，可以留下你实际选的口味。'},
   'reserve-tag':{scene:'market',title:'红线系着的预留牌',short:'陈姨 · 先保鲜',text:'陈姨要替周姐备明早的菜。有藕就留藕，没有也可带两样配菜。选好后先寄菜摊保鲜，傍晚经过汤铺再交，不拎着鲜菜晒一天。',link:'你可以帮忙，也可以只挑自己的一篮。'},
-  'movie-notice':{scene:'newsstand',title:'院坝今晚开映',short:'今晚的白幕',text:'20:00，院坝白幕放原创照片故事《一只篮子借了三回》。陈姨说“看完把凳子各家领走”，李伯在旁边添一句“先别碰放映机”。',link:'晚上去露天电影，可以看到这则预告的回应。'},
+  'movie-notice':{scene:'newsstand',title:'院坝今晚开映',short:'今晚的白幕',text:'20:00，院坝白幕放原创插画短片《从街口到江边》。陈姨说“看完把凳子各家领走”，李伯在旁边添一句“先别碰放映机”。',link:'晚上去露天电影，可以看到这则预告的回应。'},
   'cup-notice':{scene:'newsstand',title:'招领：杯底有个△',short:'有人找杯子',text:'吴姐昨晚借出去的搪瓷杯，被陈姨收进了杂货铺柜台。店主请她别再问杯沿的花，先看杯底有没有三角。',link:'杂货铺的押瓶本里夹着领杯条。'},
   'deposit-ledger':{scene:'grocery',title:'押瓶本里夹着领杯条',short:'陈姨的两只空瓶',text:'陈姨：空汽水瓶两只，已收。李伯：还差一只。夹页：“吴姐的杯在右柜，不算瓶子，不记押金。”店主又把“不记”描粗了一遍。',link:'先看杯底记号，再告诉陈姨，别真把杯子当押瓶。'},
   'fan-name':{scene:'neighbors',title:'蒲扇背面的小字',short:'背面写着“陈”',text:'陈姨用剩下的线头缠了扇柄，又写一个“陈”。李伯嫌字太大，她说：“大一点，你拿回去一眼就看得见。”',link:'晨练时借到的扇子，也是陈姨的。'},
@@ -44,24 +44,13 @@
   'cup-mark':{scene:'grocery',title:'吴姐的杯底记号',short:'杯底的△',text:'吴姐说杯沿的花谁家都有，杯底那道浅三角才认得出。陈姨昨晚拿它装瓜子，收桌时把它当成李伯的，顺手寄在杂货柜里。',link:'告诉吴姐或陈姨，她们会对这次发现作出回应。'}
  };
  function ferryArrival(s){const belongings=[];if(s.selectedProduce.length)belongings.push('你挑的'+items(s.selectedProduce));if(s.paperTaken)belongings.push('那张街坊早报');return '那一岸到了。'+(belongings.length?belongings.join('，还有')+'，都在今天这段经历里。':'你只带着验过的纸票，过了这一段江。')+(s.basketErrand==='reserved'?'陈姨那份还在菜摊保鲜，傍晚别拎错了。':'');}
- function postcard(s){
-  const out=[];if(s.breakfastOrder)out.push('吴姐记下：'+flavors[s.breakfastOrder]);else if(s.breakfastMade)out.push('在吴姐铺里看过一碗面做好');
-  if(s.selectedProduce.length)out.push('挑过：'+items(s.selectedProduce));
-  if(s.basketErrand==='reserved')out.push('替陈姨预留了明早的菜');if(s.basketErrand==='delivered')out.push('把备料篮交到周姐汤铺');if(s.basketErrand==='returned')out.push('送过菜，也从陈姨手里取回空篮');
-  if(s.paperTaken)out.push('夹走一张街坊早报');else if(s.discoveredMemories.includes('paper-read'))out.push('读过街坊早报，留在报摊');
-  if(s.ticketValidated)out.push('验过一张船票'+(s.ferryCrossed?'，到过另一岸':''));else if(s.discoveredMemories.includes('ticket-note'))out.push('读过票背的“先扶稳，再推车”');
-  if(s.fanBorrowed)out.push('在江滩摇过陈姨的扇子');if(s.heardLiStory)out.push('看完李伯的“橡皮圈”机修手记');
-  for(const id of s.programsRead||[])if(id!=='li')out.push('读完字幕《'+(id==='street'?'街坊生活报':'招领小留言')+'》');
-  if(s.discoveredMemories.includes('cup-mark'))out.push('认出吴姐杯底的△');if(s.discoveredMemories.includes('memory-stool-repair'))out.push('看过李伯和陈姨修补的凳脚');if(s.discoveredMemories.includes('memory-menu-edit'))out.push('在旧单上认出陈姨补的后半句');
-  if(s.filmSeen)out.push('在院坝看完《一只篮子借了三回》');return out;
- }
  function newspaper(s){return[
-  {title:'今晚院坝放一只篮子的故事',text:'20:00，白幕放原创照片故事《一只篮子借了三回》。陈姨请各家带凳子，李伯只管放映机，谁也别替他乱拧。'},
-  {title:'招领：别光认杯沿的花',text:'吴姐找杯底刻△的搪瓷杯。陈姨昨晚借去装瓜子，收桌时寄在杂货柜。押瓶本夹页写着：“杯子不算空瓶。”'},
+  {title:'今晚院坝放这条街的一天',text:'20:00，白幕放原创插画短片《从街口到江边》。陈姨请各家带凳子，李伯只管放映机，谁也别替他乱拧。'},
+  {title:'晚间路线 / 先交菜，再看电影',text:'汤铺交菜后，沿炭炉走到杂货铺，倒杯汽水。院坝散场后去纳凉小桌找陈姨取空篮，最后到江边收竿。'},
   {title:'陈姨的明早备料',text:s.basketErrand==='reserved'?'你预留的'+items(s.errandProduce)+'先寄菜摊保鲜，傍晚再交到周姐汤铺。今晚那锅汤中午已上火。':['delivered','returned'].includes(s.basketErrand)?'你预留的'+items(s.errandProduce)+'，周姐已接收。那是明早的备料，不是今晚现成的汤。':'陈姨明早替周姐切菜，有藕留藕，没有就备两样配菜。没人顺路时，周姐会另备，不把这件小事压给路过的人。'},
   {title:'街坊来信 / 李伯多写了半句',text:'“先扶稳，再推车”，本来只是班组便笺。陈姨让李伯写清楚“人也要站稳”，说有些人只顾车，不顾自己。——原创街坊来信'}
  ];}
- const stations=[{id:'street',f:89.4,name:'街坊生活报'},{id:'letters',f:96.8,name:'招领小留言'},{id:'li',f:104.2,name:'李伯的机修手记'}];
+ const stations=[{id:'street',f:89.4,name:'街坊生活报'},{id:'letters',f:96.8,name:'今晚怎么走'},{id:'li',f:104.2,name:'李伯的机修手记'}];
  function programme(id,s){const errand=s.basketErrand,lotus=s.errandProduce.includes('lotus');const all={
   street:{name:'街坊生活报',by:'原创模拟广播 · 字幕版',cues:[
    '这里是画卷里的街坊生活报。不是实际电台，今天只报三件门口的小事。',
@@ -71,13 +60,13 @@
    lotus&&['delivered','returned'].includes(errand)?'莲藕一栏已划接收。空篮由陈姨带到纳凉桌边，跟菜分开记。':'没有交来的莲藕，不写成谁送的。备料单留一栏，等真收到再划。',
    '最后提醒一件：院坝白幕开映后，门口还要留一条能走人的缝。陈姨说，挪凳子这事她管。'
   ]},
-  letters:{name:'招领小留言',by:'原创模拟广播 · 字幕版',cues:[
-   '这是一则原创街坊留言。吴姐说，她那只搪瓷杯，杯底有一道浅三角。',
-   '陈姨昨天借来装瓜子，收桌时觉得花样像李伯的，就放到了杂货柜。',
-   '店主把领杯条夹在押瓶本里，特意写了“杯子不算空瓶”，又描粗一次。',
-   '李伯听见就不服：“我的杯底没三角。你不能见个搪瓷杯，都写成我的。”',
-   s.discoveredMemories.includes('cup-mark')?'你已经认过那个杯底记号。这回再去跟吴姐或陈姨说，她们知道你说的是哪只。':'想认一认，就到杂货铺看看杯底。没看过，先别替吴姐说找到了。',
-   '杯子还寄在柜台，不会自动跑回谁手里。这则留言只把位置讲清，取不取，等主人顺路。'
+  letters:{name:'今晚怎么走',by:'原创路线提示 · 字幕版',cues:[
+ '早报里的放映预告，今晚会在院坝兑现。先别急着过去，汤铺的周姐还在收明早的菜。',
+ '你如果在菜摊留了菜，到汤铺先核对，再确认交接。没有留菜，就听听砂锅的热气。',
+ '接着沿烧烤炉往前走，在杂货铺倒一杯汽水。瓶子向右倾就能倒，也有轻点的替代操作。',
+ '院坝的幕要拉开，手轮要转，画面对准后才开映。短片讲的就是今天从街口到江边的路。',
+ '散场以后去找陈姨。交过菜，她会把空篮还你；没有交，就打声招呼，不会凭空多出一个篮子。',
+ '最后到江边，放一次鱼线，再轻轻提起来。十二个地方走过了，这一天在这里收尾。'
   ]},
   li:{name:'李伯的机修手记',by:'李伯 / 原创角色回忆 · 字幕版',cues:[
    '“故事里的2009年，我还在轮渡干机修。别人只记得船靠岸，我记得靠岸前机舱不能分神。”',
@@ -88,16 +77,11 @@
    '“她修布，我修铁，各管一半。你问谁修得好？这话你去问她，我不先说。”'
   ]}
  };return all[id];}
- function film(s){const read=s.paperTaken||s.discoveredMemories.includes('paper-read');let today;
-  if(['delivered','returned'].includes(s.basketErrand))today='今天第三回：你选的'+items(s.errandProduce)+'，经你核对交到周姐手里，留作明早备料。';
-  else if(s.basketErrand==='reserved')today='今天第三回：你替陈姨留了'+items(s.errandProduce)+'。这篮仍在菜摊保鲜，尚未交接，银幕不会替你把事做完。';
-  else if(s.basketErrand==='declined')today='今天你只挑了自己的一篮。陈姨把旧篮借给周姐装备用菜，一样能开明早的铺。';
-  else today='今天陈姨又把篮子送到汤铺，请周姐留明早的备用菜。周姐先核过名字，才肯把这只旧篮收下。';
-  return{title:'一只篮子借了三回',frames:[
-   {src:'assets/scenes/breakfast-pot-closed.png',text:(read?'早报预告过这只篮子。':'这只篮子在这条街上借过几回。')+'第一回，吴姐借它装街坊的碗，陈姨把干净布垫在底下。',ms:6500},
-   {src:'assets/scenes/market-day.png',text:'第二回，李伯拿去装螺丝。陈姨没夸他修好凳子，只追着问：“篮底洗干净了没有？”',ms:6500},
-   {src:['delivered','returned'].includes(s.basketErrand)?'assets/scenes/soup-night.png':'assets/scenes/market-day.png',text:today,ms:7500},
-   {src:'assets/scenes/neighbors.png',text:(s.basketErrand==='returned'?'你已经从陈姨手里接回空篮。':s.basketErrand==='delivered'?'空篮在陈姨脚边，等你散场去接。':'镜头回到纳凉的小桌。')+(s.fanBorrowed?'你早上摇过的那把扇子，背面写着“陈”。':'陈姨翻过蒲扇，背面的“陈”字比手写招牌还大。')+'李伯说：“篮子可以借，螺丝下回我用铁盒。”',ms:7500}
-  ]};}
- window.STREET_CONTENT={people,produce,flavors,items,dialogue,delivery,traces,ferryArrival,postcard,newspaper,stations,programme,film};
+ function film(s){return{title:'从街口到江边',frames:[
+ {src:'assets/scenes/breakfast-pot-closed.png',text:'早晨，吴姐开火，菜场开秤。你从一碗面出发，陈姨托的菜就留在第二个摊位。',ms:5000},
+ {src:'assets/scenes/ferry-river.png',text:'白天走到码头，验一张票，坐过一段江。菜篮留在菜场保鲜，不必拎上船。',ms:5000},
+ {src:'assets/scenes/soup-night.png',text:['delivered','returned'].includes(s.basketErrand)?'入夜，你把'+items(s.errandProduce)+'交给周姐，留作明早备料。陈姨已经替你把空篮拿到小桌边。':s.basketErrand==='reserved'?'你留好的菜还等在汤铺交接。银幕只记实际做过的事；看完后仍能回去交菜。':'你没接代送菜这件事，周姐自己备料。夜里照常开汤，街坊照常来看电影。',ms:5500},
+ {src:'assets/scenes/neighbors.png',text:s.basketErrand==='returned'?'空篮已经拿回。去江边提一次鱼线，就走完今天这段路。':s.basketErrand==='delivered'?'陈姨在纳凉小桌等你拿空篮。散场后去找她，再到江边收竿。':'散场后跟陈姨打声招呼，再去江边收竿。这条路走到这里，今天就可以结束。',ms:5500}
+ ]};}
+ window.STREET_CONTENT={people,produce,flavors,items,dialogue,delivery,traces,ferryArrival,newspaper,stations,programme,film};
 })();

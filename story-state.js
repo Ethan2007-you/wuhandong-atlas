@@ -1,4 +1,4 @@
-/* Only this key is reset. Existing postcard text and local music are untouched. */
+/* Only this key is reset. Other browser data and local music are untouched. */
 (() => {
  'use strict';
  const KEY='wuhandong-story-day',VERSION=1,produce=['greens','lotus','radish'],stages=['not_started','declined','reserved','delivered','returned'];

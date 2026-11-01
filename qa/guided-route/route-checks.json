@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS",
+  "checks": [
+    "All 12 real outcomes advance in the declared order across morning/night",
+    "Skip advances once without recording a fabricated completion",
+    "No advancement before the current interaction is finished",
+    "Unrelated scene events cannot complete the current stop",
+    "Stored route and explicit skips survive reload; restarting resets route",
+    "Blocked storage and malformed route data still open a usable intro",
+    "No active or legacy scene exposes the removed export interaction",
+    "Declining the basket keeps soup and neighbors consistent and playable",
+    "Leaving guided mode hides the prompt without erasing the chosen route"
+  ]
+}
