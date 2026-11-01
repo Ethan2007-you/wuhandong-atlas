@@ -6,8 +6,8 @@
   },
   {
     "path": "app.js",
-    "bytes": 40979,
-    "sha256": "0cb42be052a13e0db47576da11ecac06f146b85b0e9fd774fe644e7d029cfe7d"
+    "bytes": 41381,
+    "sha256": "6d96c65ee65b21487507149e86c65ab14027dd654fe3c8d8f6f2bc572397e133"
   },
   {
     "path": "assets/audio/bell-recorded.wav",
@@ -326,18 +326,18 @@
   },
   {
     "path": "history.css",
-    "bytes": 3603,
-    "sha256": "30d0aa4de271e5175492ff7d9b42599621076ea715d2ca10b7791d7c2e9fccae"
+    "bytes": 6569,
+    "sha256": "35228b2b1840ed50081d91052108ae9275410ef8455a3aae554aef3a4298bda1"
   },
   {
     "path": "history.js",
-    "bytes": 7770,
-    "sha256": "66700ff06f4cff6f0d224fb30d5da118ccd7dfadf9cae07b7a3592b5e95d9d93"
+    "bytes": 10645,
+    "sha256": "1e500c8076d52955624f624c85e247609085ffb0c741836f3422230987318732"
   },
   {
     "path": "index.html",
-    "bytes": 10824,
-    "sha256": "3fef4996de73bc93a69a580f04a2f4aac2b38597af1370124f64a2126db4eeef"
+    "bytes": 11409,
+    "sha256": "b2183078bc5545a1acbd69ea9f32dadd8728eab713eed85e203173fe64385b25"
   },
   {
     "path": "journeys.css",
@@ -346,8 +346,8 @@
   },
   {
     "path": "journeys.js",
-    "bytes": 30940,
-    "sha256": "a878203533ad9de6228545ec1ec30f72f84b45e8600802fe9e353f27e936b139"
+    "bytes": 31923,
+    "sha256": "70893a08c8c2f7deac2bf15aaa639da50e6721aa06f5087b7fb932e52635f967"
   },
   {
     "path": "music.js",
@@ -362,7 +362,7 @@
   {
     "path": "qa/guided-route/assets-checks.json",
     "bytes": 9182,
-    "sha256": "908c971593670dea174f9ad949bd849432d8d5d115e3c8260cb29cb0d0fbbbf0"
+    "sha256": "e411ffadc341a4156c03c66d05e3d50d6076b3cc24e8ebeed5f73fbd2ba1a713"
   },
   {
     "path": "qa/guided-route/browser-checks.json",
@@ -445,6 +445,31 @@
     "sha256": "86993cf66a275f26ff982ddadd7ce01b06097594b5a7ebcb08a622beccc359dc"
   },
   {
+    "path": "qa/guided-route/moment-breakfast.png",
+    "bytes": 107907,
+    "sha256": "6a6a12b0e31bd4ed7bc8ef5de2b8484edd9d7acba46836f684b244e996fcab30"
+  },
+  {
+    "path": "qa/guided-route/moment-ferry.png",
+    "bytes": 75104,
+    "sha256": "36b3eb15f4777dd59732686bb188015dbed3276401c4c20b6733130ec4f8e2df"
+  },
+  {
+    "path": "qa/guided-route/moment-mobile.png",
+    "bytes": 36619,
+    "sha256": "9f0b6f7266143c60ace78e56def1ce23336d35970912a0a98e0dea3b98f6e12c"
+  },
+  {
+    "path": "qa/guided-route/moment-paper.png",
+    "bytes": 119790,
+    "sha256": "77ccae85ccdbb39274c8e9a14159d7ea42de6fa90f5988a5e2d8be86d7d8bf7e"
+  },
+  {
+    "path": "qa/guided-route/moment-riverside.png",
+    "bytes": 88699,
+    "sha256": "363bca9ecb2abbc308cb72125166772d26c12af6d5f82f918ea6072f9b3c834b"
+  },
+  {
     "path": "qa/guided-route/route-checks.json",
     "bytes": 718,
     "sha256": "6a6ecaada77a4435333eaf330d9f04239884b93c24562d87dd76b14d6e6355c0"
@@ -456,13 +481,13 @@
   },
   {
     "path": "qa/guided-route/验证记录.md",
-    "bytes": 3111,
-    "sha256": "cec2a18f857e202df42afb86abbed7080e8670a77e49f88e5a379ece518f3299"
+    "bytes": 3608,
+    "sha256": "455e17eb852aa484e1ce6bc34b10529e7450c7036528669d417e2304dd3c42e0"
   },
   {
     "path": "README.md",
-    "bytes": 4345,
-    "sha256": "6a67e0da38986479d65720e465e9c8fb17b113b96a4078cfd8faa10b55400612"
+    "bytes": 4748,
+    "sha256": "a115628f24133a58657439b5c8ffefb4b4a47c49bc228f9fd8193c993f21ca22"
   },
   {
     "path": "route.css",
@@ -491,8 +516,8 @@
   },
   {
     "path": "story-ui.js",
-    "bytes": 8552,
-    "sha256": "dc075dc1d94b200f0c36cfeb45748fd234935786e0b77e241a0508159467432d"
+    "bytes": 8641,
+    "sha256": "236b75f2cc91ab4bd9e61b2aaab530489b7c02e74891ecc2200ee664b51816b5"
   },
   {
     "path": "story.css",

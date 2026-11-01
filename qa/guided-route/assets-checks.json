@@ -41,6 +41,7 @@
     "assets/scenes/grocery.png",
     "assets/scenes/neighbors.png",
     "assets/scenes/night-fishing-clean.png",
+    "assets/history/bookstall.jpg",
     "assets/scenes/ferry-rail.png",
     "assets/sprites/market-cutouts.png",
     "assets/scenes/alley.png",
@@ -74,7 +75,6 @@
     "assets/history/tea-1989.jpg",
     "assets/history/barbecue-1989.jpg",
     "assets/history/television-1984.jpg",
-    "assets/history/bookstall.jpg",
     "assets/history/ferry-old.jpg",
     "assets/history/ferry-early.jpg",
     "assets/history/ferry-unknown.jpg"
@@ -258,6 +258,10 @@
       "status": 200
     },
     {
+      "resource": "assets/history/bookstall.jpg",
+      "status": 200
+    },
+    {
       "resource": "assets/scenes/ferry-rail.png",
       "status": 200
     },
@@ -387,10 +391,6 @@
     },
     {
       "resource": "assets/history/television-1984.jpg",
-      "status": 200
-    },
-    {
-      "resource": "assets/history/bookstall.jpg",
       "status": 200
     },
     {
