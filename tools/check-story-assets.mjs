@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';import vm from 'node:vm';import assert from 'node:assert/strict';import crypto from 'node:crypto';
-const files=['index.html','app.js','periods.js','journeys.js','styles.css','journeys.css','story.css','story-state.js','content.js','story-ui.js','music.js','scenes.js','route.js','route.css'];
-const texts=await Promise.all(files.map(f=>fs.readFile(f,'utf8'))),all=texts.join('\n');const refs=new Set([...all.matchAll(/assets\/[\w./-]+\.(?:png|apng|woff2|js|mp3|wav)/g)].map(m=>m[0]));for(const m of all.matchAll(/'([\w-]+-recorded\.wav)'/g))refs.add('assets/audio/'+m[1]);
+const files=['index.html','app.js','periods.js','journeys.js','styles.css','journeys.css','story.css','story-state.js','content.js','story-ui.js','music.js','scenes.js','route.js','route.css','history.js','history.css'];
+const texts=await Promise.all(files.map(f=>fs.readFile(f,'utf8'))),all=texts.join('\n');const refs=new Set([...all.matchAll(/assets\/[\w./-]+\.(?:png|jpg|jpeg|apng|woff2|js|mp3|wav)/g)].map(m=>m[0]));for(const m of all.matchAll(/'([\w-]+-recorded\.wav)'/g))refs.add('assets/audio/'+m[1]);
 for(const f of refs)await fs.access(f);const box={window:{}};vm.createContext(box);vm.runInContext(texts[files.indexOf('periods.js')],box);vm.runInContext(texts[files.indexOf('content.js')],box);
 const periods=box.window.STREET_PERIODS,C=box.window.STREET_CONTENT;assert.equal(Object.keys(C.people).length,3);assert(Object.keys(C.traces).length>=6);assert.equal(C.stations.length,3);
 const blank={people:{chen:0,li:0,wu:0},basketErrand:'not_started',selectedProduce:[],errandProduce:[],programsRead:[],discoveredMemories:[]};

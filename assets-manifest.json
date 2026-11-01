@@ -6,8 +6,8 @@
   },
   {
     "path": "app.js",
-    "bytes": 40962,
-    "sha256": "efb88be57502c55b376b0deedb2ccdba6fca61012e9aab0074db4e4065ba1170"
+    "bytes": 40979,
+    "sha256": "0cb42be052a13e0db47576da11ecac06f146b85b0e9fd774fe644e7d029cfe7d"
   },
   {
     "path": "assets/audio/bell-recorded.wav",
@@ -93,6 +93,46 @@
     "path": "assets/fonts/WuHanYingXiongTi.woff2",
     "bytes": 793404,
     "sha256": "a021ba6590a1abb8685950347bb6b5b929e2aab340bc61d6dec346acd93ca1c9"
+  },
+  {
+    "path": "assets/history/breakfast-1987.jpg",
+    "bytes": 46817,
+    "sha256": "a6fbfc1949d9a600449402c910cf1634bbc61b6f14e98e9a73fd782c67ee5711"
+  },
+  {
+    "path": "assets/history/cinema-1987.jpg",
+    "bytes": 52927,
+    "sha256": "ff51296ec21aadaa3ac4dc5644dee885697c1af68a31f55eea2f1e9198ce04f0"
+  },
+  {
+    "path": "assets/history/grocery-1992.jpg",
+    "bytes": 121099,
+    "sha256": "e380b45fcfb669770aae224d0ef3a193192815d580c043f0010c4d8442a9547d"
+  },
+  {
+    "path": "assets/history/market-1984.jpg",
+    "bytes": 118586,
+    "sha256": "d9b7ab43954ac44053b4c5f025349ab17c0de62d677e8d949f8c682c963ed495"
+  },
+  {
+    "path": "assets/history/neighbors-1984.jpg",
+    "bytes": 92306,
+    "sha256": "d93bcc1efc4f07ae7fa79f0358fdf5c9d89effef0f82917f64d88e85f07a61d5"
+  },
+  {
+    "path": "assets/history/pier-pre1914.jpg",
+    "bytes": 3356747,
+    "sha256": "f278a32b23a6906318cc76eebced25fe25f197f18e8f60a7a2a0767a90173dc9"
+  },
+  {
+    "path": "assets/history/river-1988.jpg",
+    "bytes": 86195,
+    "sha256": "9b332e5e023f1ffe4befbf07ad49c73d258ce312a050d32b97a5904f3e7af34e"
+  },
+  {
+    "path": "assets/history/sources.json",
+    "bytes": 2333,
+    "sha256": "99d189dbfae85b554ce426845450b77fcffa02897860189f60e12b46ff89e09f"
   },
   {
     "path": "assets/scenes/alley.png",
@@ -220,9 +260,19 @@
     "sha256": "3494e93ad36eb3a0baf9e6983df963aeb8a56052750c02db9fb73b0545e81b6a"
   },
   {
+    "path": "history.css",
+    "bytes": 2799,
+    "sha256": "2ea30b9105bdbe550fceb681d10a4b8715a87dd43c2fff28c24c299c80c6d85d"
+  },
+  {
+    "path": "history.js",
+    "bytes": 3939,
+    "sha256": "dd6c33ef720048d15817b0a95191c57394c27d27e85b3ce664d9d56cd9323637"
+  },
+  {
     "path": "index.html",
-    "bytes": 9937,
-    "sha256": "8498152103118b425c9fbd54a1c792a139640b95f520c8e97090f1b001da0ea6"
+    "bytes": 10724,
+    "sha256": "115e10b1d4a9d507cb3bc3c590eb725664cdbbfffc61684d7410d456015f2c23"
   },
   {
     "path": "journeys.css",
@@ -246,8 +296,8 @@
   },
   {
     "path": "qa/guided-route/assets-checks.json",
-    "bytes": 6500,
-    "sha256": "cc07e297c429000ac5187895765860ae03d29e2740cbdca35b17fa2d2b15654f"
+    "bytes": 7543,
+    "sha256": "4c47ce8f7533bf70aec8b5a4207620be5c6d3a32896697b1816b298d30bf3b8d"
   },
   {
     "path": "qa/guided-route/browser-checks.json",
@@ -280,6 +330,26 @@
     "sha256": "2b5e770c4bc3120b5e4c5d1e66e99ed8245899613def0cda4dffc5dc942805ff"
   },
   {
+    "path": "qa/guided-route/history-breakfast-detail.png",
+    "bytes": 113454,
+    "sha256": "f5b3c5a7472227b6ff692f12f46603c6ef26cc15e9bdc7051b44089ce3415a04"
+  },
+  {
+    "path": "qa/guided-route/history-mobile-detail.png",
+    "bytes": 32177,
+    "sha256": "087d5b5c26830f48a0abc8c962d97282f5fc5ead7bf0125e57d44724c46aab33"
+  },
+  {
+    "path": "qa/guided-route/history-mobile-scene.png",
+    "bytes": 63837,
+    "sha256": "1374cd3f032b6099fa3892be67a31f17ce7bc72c5fd810cc9ee543b2fd5a78dc"
+  },
+  {
+    "path": "qa/guided-route/history-photo-checks.json",
+    "bytes": 579,
+    "sha256": "6d24a93f83f9c73214dee5293d71ab5184258251c0f75dfa246218c81fcdf83d"
+  },
+  {
     "path": "qa/guided-route/mobile-current-step.png",
     "bytes": 76645,
     "sha256": "ec8bc26e03c4e3070063d43281d4f54e50e0b8ed9a5760a6adde352d6e0b6f05"
@@ -301,13 +371,13 @@
   },
   {
     "path": "qa/guided-route/验证记录.md",
-    "bytes": 2035,
-    "sha256": "58cf79938176396132c88b1614052c6b72601c4bfe38d65c9082d96dc7ae1229"
+    "bytes": 2503,
+    "sha256": "acd795e346242246176c35f65f326c32f057d6e9a7391d6aa5e5759767173f7c"
   },
   {
     "path": "README.md",
-    "bytes": 3957,
-    "sha256": "b0774c42d1ef0fb970438d73a9bab0bc8372ae13d83eefec5f40691f8c138d2a"
+    "bytes": 4324,
+    "sha256": "3b020d8cd431ddf45736282fa0e7e455bd4baa4dffa1f6c87303b6e63437334f"
   },
   {
     "path": "route.css",
@@ -351,8 +421,8 @@
   },
   {
     "path": "tools/check-story-assets.mjs",
-    "bytes": 2525,
-    "sha256": "06199fff00059173fb1e97b1381ab77ad3e1e7a55d7539d75d11644844294bab"
+    "bytes": 2561,
+    "sha256": "d2cde4e5062685e9d2b61b90af78da8d88fbcab443519d9aac03c75b4ca4d278"
   },
   {
     "path": "tools/imagegen-barbecue-prompts.json",
@@ -396,8 +466,8 @@
   },
   {
     "path": "tools/package-story.py",
-    "bytes": 1423,
-    "sha256": "8b4318d70b28ba700841e86c7517d192d90bbf5cd53f263a714262839bf86f2c"
+    "bytes": 1453,
+    "sha256": "5a237bd1103b52940b705bc79f790cc79a9df669b308b2ef570f6c54ea614535"
   },
   {
     "path": "tools/test-route.mjs",

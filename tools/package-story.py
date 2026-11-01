@@ -2,7 +2,7 @@ from pathlib import Path
 import hashlib,json,zipfile
 root=Path(__file__).resolve().parents[1]
 report=json.loads((root/'qa/guided-route/assets-checks.json').read_text(encoding='utf8'))
-names=set(report['files'])|set(report['references'])|{'README.md','server.mjs','打开本地预览.cmd','.gitignore'}
+names=set(report['files'])|set(report['references'])|{'README.md','server.mjs','打开本地预览.cmd','.gitignore','assets/history/sources.json'}
 names.update(p.relative_to(root).as_posix() for p in (root/'qa/guided-route').rglob('*') if p.is_file())
 names.update(p.relative_to(root).as_posix() for p in (root/'assets/audio').glob('*source*.json'))
 names.update(p.relative_to(root).as_posix() for p in (root/'tools').glob('imagegen-*.json'))

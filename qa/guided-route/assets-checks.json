@@ -14,7 +14,9 @@
     "music.js",
     "scenes.js",
     "route.js",
-    "route.css"
+    "route.css",
+    "history.js",
+    "history.css"
   ],
   "references": [
     "assets/fonts/WuHanYingXiongTi.woff2",
@@ -43,6 +45,13 @@
     "assets/sprites/market-cutouts.png",
     "assets/scenes/alley.png",
     "assets/scenes/night.png",
+    "assets/history/breakfast-1987.jpg",
+    "assets/history/market-1984.jpg",
+    "assets/history/river-1988.jpg",
+    "assets/history/pier-pre1914.jpg",
+    "assets/history/cinema-1987.jpg",
+    "assets/history/grocery-1992.jpg",
+    "assets/history/neighbors-1984.jpg",
     "assets/audio/door-open-recorded.wav",
     "assets/audio/door-close-recorded.wav",
     "assets/audio/bowl-recorded.wav",
@@ -137,6 +146,14 @@
     },
     {
       "resource": "route.css",
+      "status": 200
+    },
+    {
+      "resource": "history.js",
+      "status": 200
+    },
+    {
+      "resource": "history.css",
       "status": 200
     },
     {
@@ -241,6 +258,34 @@
     },
     {
       "resource": "assets/scenes/night.png",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/breakfast-1987.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/market-1984.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/river-1988.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/pier-pre1914.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/cinema-1987.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/grocery-1992.jpg",
+      "status": 200
+    },
+    {
+      "resource": "assets/history/neighbors-1984.jpg",
       "status": 200
     },
     {

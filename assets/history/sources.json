@@ -1,0 +1,12 @@
+{
+  "description": "真实历史影像，按用户提供的授权加入；日期、地点与作者以所列来源说明为准。照片与画卷中的虚构人物、店铺并非同一地点。",
+  "photos": [
+    {"file":"breakfast-1987.jpg","scene":"过早铺","description":"1987年，江汉路，水塔对面的热干面馆","photographer":"谢国安","source":"https://m.thepaper.cn/newsDetail_forward_22569966","image":"https://imagepphcloud.thepaper.cn/pph/image/245/878/467.jpg"},
+    {"file":"market-1984.jpg","scene":"早市菜摊","description":"1984年，车站路，街边西瓜摊","photographer":"谢国安","source":"https://m.thepaper.cn/newsDetail_forward_22569966","image":"https://imagepphcloud.thepaper.cn/pph/image/245/878/556.jpg"},
+    {"file":"river-1988.jpg","scene":"江滩晨练","description":"1988年，武昌中华路江边","photographer":"谢国安","source":"https://m.thepaper.cn/newsDetail_forward_22569966","image":"https://imagepphcloud.thepaper.cn/pph/image/245/878/446.jpg"},
+    {"file":"pier-pre1914.jpg","scene":"轮渡码头","description":"第一次世界大战前，汉口江港；不是画卷中的轮渡码头实景","photographer":"作者不详","source":"https://commons.wikimedia.org/wiki/File:Hankow_waterside.jpg","image":"https://upload.wikimedia.org/wikipedia/commons/b/bb/Hankow_waterside.jpg","license_note":"Wikimedia Commons 标为 Public Domain Mark 1.0；文件页亦提示需注意具体法域的权利状态。"},
+    {"file":"cinema-1987.jpg","scene":"露天电影","description":"1987年，武昌大东门，影碟放映厅门面；不是露天电影实景","photographer":"谢国安","source":"https://m.thepaper.cn/newsDetail_forward_22569966","image":"https://imagepphcloud.thepaper.cn/pph/image/245/878/561.jpg"},
+    {"file":"grocery-1992.jpg","scene":"杂货铺","description":"1992年，胜利街，汽水和冰棒小贩","photographer":"谢国安","source":"https://m.thepaper.cn/newsDetail_forward_22569966","image":"https://imagepphcloud.thepaper.cn/pph/image/245/878/562.jpg"},
+    {"file":"neighbors-1984.jpg","scene":"街坊纳凉","description":"1984年，三民路铜人像，夏夜乘凉","photographer":"谢国安","source":"https://m.thepaper.cn/newsDetail_forward_22569966","image":"https://imagepphcloud.thepaper.cn/pph/image/245/878/376.jpg"}
+  ]
+}

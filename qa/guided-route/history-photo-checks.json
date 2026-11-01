@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS",
+  "checks": [
+    "Seven photos visibly matched to breakfast, market, exercise, pier, cinema, grocery and neighbors",
+    "Newsstand, soup and barbecue show no unrelated photo",
+    "Full image, photographer, historic date/place and original source link displayed",
+    "Mobile 390x844 photo and details readable",
+    "Photo hides during interactions and returns afterward",
+    "Source distinctions identify fictional scenes versus real images",
+    "Local resource checks 62 PASS; story 16 and route 9 PASS"
+  ],
+  "console": []
+}
