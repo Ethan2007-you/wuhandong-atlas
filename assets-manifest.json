@@ -6,8 +6,8 @@
   },
   {
     "path": "app.js",
-    "bytes": 41381,
-    "sha256": "6d96c65ee65b21487507149e86c65ab14027dd654fe3c8d8f6f2bc572397e133"
+    "bytes": 41395,
+    "sha256": "3e062bfffc499f2d030725f32612b51163a8ebd27431e075460f27c309c2d3aa"
   },
   {
     "path": "assets/audio/bell-recorded.wav",
@@ -326,18 +326,18 @@
   },
   {
     "path": "history.css",
-    "bytes": 6569,
-    "sha256": "35228b2b1840ed50081d91052108ae9275410ef8455a3aae554aef3a4298bda1"
+    "bytes": 9246,
+    "sha256": "5a0f462ba3216da0f157a2386a52112c995df69fafb6cf1b39ba044d1ab6dad6"
   },
   {
     "path": "history.js",
-    "bytes": 10645,
-    "sha256": "1e500c8076d52955624f624c85e247609085ffb0c741836f3422230987318732"
+    "bytes": 10719,
+    "sha256": "ab175076da79d29f91d2fccb574588dd550ccdc140cf5f37ae433f99a8eb3e72"
   },
   {
     "path": "index.html",
-    "bytes": 11409,
-    "sha256": "b2183078bc5545a1acbd69ea9f32dadd8728eab713eed85e203173fe64385b25"
+    "bytes": 11454,
+    "sha256": "9388ab84c53778e350aeae6bb8a95df7af2166381dd968e8a0d46f1634e83a48"
   },
   {
     "path": "journeys.css",
@@ -361,8 +361,8 @@
   },
   {
     "path": "qa/guided-route/assets-checks.json",
-    "bytes": 9182,
-    "sha256": "e411ffadc341a4156c03c66d05e3d50d6076b3cc24e8ebeed5f73fbd2ba1a713"
+    "bytes": 9273,
+    "sha256": "91ce09ee5ec28d1cecd82ab53ee5a5d604853a0befb1bba5f34203190e3b1218"
   },
   {
     "path": "qa/guided-route/browser-checks.json",
@@ -470,6 +470,11 @@
     "sha256": "363bca9ecb2abbc308cb72125166772d26c12af6d5f82f918ea6072f9b3c834b"
   },
   {
+    "path": "qa/guided-route/real-street-desktop.png",
+    "bytes": 320361,
+    "sha256": "353ec5c45239a0e733e09f19aad7ba1e1d36aa97906b3c4b3a5d2309f3ab6c2a"
+  },
+  {
     "path": "qa/guided-route/route-checks.json",
     "bytes": 718,
     "sha256": "6a6ecaada77a4435333eaf330d9f04239884b93c24562d87dd76b14d6e6355c0"
@@ -481,13 +486,18 @@
   },
   {
     "path": "qa/guided-route/验证记录.md",
-    "bytes": 3608,
-    "sha256": "455e17eb852aa484e1ce6bc34b10529e7450c7036528669d417e2304dd3c42e0"
+    "bytes": 4129,
+    "sha256": "73c2f467c324547e93aa33c28e5a6877c31c992220a8a56b1a09fe2007a0988f"
   },
   {
     "path": "README.md",
-    "bytes": 4748,
-    "sha256": "a115628f24133a58657439b5c8ffefb4b4a47c49bc228f9fd8193c993f21ca22"
+    "bytes": 5072,
+    "sha256": "5ad83221372d0f86b7fcf2bd1b23dde8b3ea8f4b71c7665988577017d5f1236c"
+  },
+  {
+    "path": "real-street.js",
+    "bytes": 6383,
+    "sha256": "1479b92d1b5f0511443fb92302965d9489df35f754f20d2f54a333dd6365a461"
   },
   {
     "path": "route.css",
@@ -531,8 +541,8 @@
   },
   {
     "path": "tools/check-story-assets.mjs",
-    "bytes": 2720,
-    "sha256": "f81840edafc91dc0a42204f5cd5655cfaeeaa742e2112ebdd5f3c63e447c265e"
+    "bytes": 2737,
+    "sha256": "78ea3837fe276c26700066cb89f52c5e91e1b9ab2458c0571b1fddd40fe14bec"
   },
   {
     "path": "tools/imagegen-barbecue-prompts.json",

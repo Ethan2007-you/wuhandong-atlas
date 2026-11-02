@@ -16,7 +16,8 @@
     "route.js",
     "route.css",
     "history.js",
-    "history.css"
+    "history.css",
+    "real-street.js"
   ],
   "references": [
     "assets/fonts/WuHanYingXiongTi.woff2",
@@ -167,6 +168,10 @@
     },
     {
       "resource": "history.css",
+      "status": 200
+    },
+    {
+      "resource": "real-street.js",
       "status": 200
     },
     {
